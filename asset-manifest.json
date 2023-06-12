@@ -1,7 +1,7 @@
 {
   "main.css": "/designhouse/static/css/main.bb7ce9d5.chunk.css",
-  "main.js": "/designhouse/static/js/main.251157c3.chunk.js",
-  "main.js.map": "/designhouse/static/js/main.251157c3.chunk.js.map",
+  "main.js": "/designhouse/static/js/main.dd1660ab.chunk.js",
+  "main.js.map": "/designhouse/static/js/main.dd1660ab.chunk.js.map",
   "static/js/1.ec5ddaa9.chunk.js": "/designhouse/static/js/1.ec5ddaa9.chunk.js",
   "static/js/1.ec5ddaa9.chunk.js.map": "/designhouse/static/js/1.ec5ddaa9.chunk.js.map",
   "static/js/2.a44d98bb.chunk.js": "/designhouse/static/js/2.a44d98bb.chunk.js",
@@ -20,11 +20,11 @@
   "static/media/stories-3.png": "/designhouse/static/media/stories-3.82dbca5d.png",
   "static/media/clients-2.jpg": "/designhouse/static/media/clients-2.216e1a34.jpg",
   "static/media/App.css": "/designhouse/static/media/w-banner.5db1d8e8.png",
-  "static/media/Innerbanner.css": "/designhouse/static/media/h-contact.bc58e549.png",
+  "static/media/Innerbanner.css": "/designhouse/static/media/h-work.cdcec2ec.png",
   "static/media/Footer.css": "/designhouse/static/media/contact.20de1fd4.png",
   "static/media/Banners.css": "/designhouse/static/media/banner-home.d0bc1d7d.png",
   "static/css/main.bb7ce9d5.chunk.css.map": "/designhouse/static/css/main.bb7ce9d5.chunk.css.map",
   "index.html": "/designhouse/index.html",
-  "precache-manifest.7f2a15b4445d3f179bad5d41477397ac.js": "/designhouse/precache-manifest.7f2a15b4445d3f179bad5d41477397ac.js",
+  "precache-manifest.7933df982dd9d9851ba40d6e679cb1ed.js": "/designhouse/precache-manifest.7933df982dd9d9851ba40d6e679cb1ed.js",
   "service-worker.js": "/designhouse/service-worker.js"
 }
