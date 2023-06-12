@@ -22,9 +22,9 @@
   "static/media/App.css": "/designhouse/static/media/w-banner.5db1d8e8.png",
   "static/media/Innerbanner.css": "/designhouse/static/media/h-work.cdcec2ec.png",
   "static/media/Footer.css": "/designhouse/static/media/contact.20de1fd4.png",
-  "static/media/Banners.css": "/designhouse/static/media/banner-service.cb8274b4.png",
+  "static/media/Banners.css": "/designhouse/static/media/banner-home.d0bc1d7d.png",
   "static/css/main.bb7ce9d5.chunk.css.map": "/designhouse/static/css/main.bb7ce9d5.chunk.css.map",
   "index.html": "/designhouse/index.html",
-  "precache-manifest.fd914068073e25284b580efb86751a31.js": "/designhouse/precache-manifest.fd914068073e25284b580efb86751a31.js",
+  "precache-manifest.43adafb4dc09e88ca725f40a64075f3d.js": "/designhouse/precache-manifest.43adafb4dc09e88ca725f40a64075f3d.js",
   "service-worker.js": "/designhouse/service-worker.js"
 }
