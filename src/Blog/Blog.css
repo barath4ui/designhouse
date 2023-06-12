@@ -1,0 +1,59 @@
+.journal-banner-wrapper {
+    Position: relative;
+    overflow: hidden;
+    padding-top: 340px;
+    padding-bottom: 132px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.j-banner-img {
+     background-image: url(../images/Blogs/j-banner.png); 
+}
+
+.j-banner-img1 {
+     background-image: url(../images/Blogs/j-banner2.png);
+}
+
+.journal-img {
+    Position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.j-img1 {
+    background-image: url(../images/Blogs/j-img.png);
+}
+
+.j-img1 {
+    background-image: url(../images/Blogs/j-img1.png);
+}
+
+.j-img2 {
+    background-image: url(../images/Blogs/j-img2.png);
+}
+
+.journal-content {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media (min-width: 1200px) { 
+
+    .journal-content{
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+.journal-content{
+    padding-left: 10px !important;
+    margin-left: 10px !important;
+    padding-right: 10px !important;
+    margin-right: 10px !important;
+}
+}
