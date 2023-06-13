@@ -100,6 +100,10 @@ self.__precacheManifest = [
     "url": "/designhouse/static/media/banner-home.d0bc1d7d.png"
   },
   {
+    "revision": "83861c175bf597ab511896b52281f364",
+    "url": "/designhouse/static/media/h-service.83861c17.png"
+  },
+  {
     "revision": "51241109ab860d376479700bc725e1e0",
     "url": "/designhouse/static/media/h-blog.51241109.png"
   },
@@ -108,15 +112,11 @@ self.__precacheManifest = [
     "url": "/designhouse/static/media/h-contact.bc58e549.png"
   },
   {
-    "revision": "83861c175bf597ab511896b52281f364",
-    "url": "/designhouse/static/media/h-service.83861c17.png"
-  },
-  {
     "revision": "cdcec2ec05ea42c48e828db40796013d",
     "url": "/designhouse/static/media/h-work.cdcec2ec.png"
   },
   {
-    "revision": "c97f36d369593e61a8e6128a090b8898",
+    "revision": "313e35de0368794e058b3897f417b5b8",
     "url": "/designhouse/index.html"
   }
 ];
