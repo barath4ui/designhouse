@@ -1,7 +1,7 @@
 
 
 import React  from 'react';
-import { Routes , Route } from 'react-router-dom';
+import { Routes , Route} from 'react-router-dom';
 import './App.css';
 import './responsive.css';
 import Header from './Common/Header/Header';
@@ -24,10 +24,12 @@ function App() {
         <Loader />
         <Header />
 
+       
         <Routes>
         
             <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
+            <Route path='/home' element={<Home />} />
+            <Route path='/designhouse/about' element={<About />} />
             <Route path='/services' element={< Services />} />
             <Route path='/works' element={< Works />} />
             <Route path='/blog' element={< Blog />} />
@@ -36,6 +38,7 @@ function App() {
 
             <Route path='*' element={<Apihome />} />
         </Routes>
+      
 
         <Footer />
     

@@ -36,7 +36,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div className="footer-link text-md-end ">
-                                <a href="/about">About</a>
+                                <a href="/designhouse/about">About*</a>
                                 <a href="/services">Services</a>
                                 <a href="/works">Works</a>
                                 <a href="/blog">Blog</a>

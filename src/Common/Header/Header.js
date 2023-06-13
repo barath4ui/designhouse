@@ -25,7 +25,7 @@ const header = () => {
                         
                         <ul>
                             <li className="m-about">
-                              <a href="/about">About</a> 
+                              <a href="/designhouse/about">About</a> 
                               <div className="menu-img"></div>
                             </li>
                             <li className="m-services">
