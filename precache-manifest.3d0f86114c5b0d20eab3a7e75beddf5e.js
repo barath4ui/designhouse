@@ -100,12 +100,12 @@ self.__precacheManifest = [
     "url": "/designhouse/static/media/banner-home.d0bc1d7d.png"
   },
   {
-    "revision": "bc58e54922173d19590ae8ea6a7a1b35",
-    "url": "/designhouse/static/media/h-contact.bc58e549.png"
-  },
-  {
     "revision": "51241109ab860d376479700bc725e1e0",
     "url": "/designhouse/static/media/h-blog.51241109.png"
+  },
+  {
+    "revision": "bc58e54922173d19590ae8ea6a7a1b35",
+    "url": "/designhouse/static/media/h-contact.bc58e549.png"
   },
   {
     "revision": "83861c175bf597ab511896b52281f364",
