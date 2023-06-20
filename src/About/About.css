@@ -1,0 +1,11 @@
+.people-img{
+    filter: grayscale(100%);
+}
+.people-name{
+color: #444242;
+font-size: 20px;
+}
+.role-txt{
+font-size: 12px;
+margin-bottom: 35px;
+}

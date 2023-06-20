@@ -18,7 +18,7 @@ const Contentbanner = (props) => {
                         </div>
                         <div className="col-lg-6 col-sm-12 side-image about-story">
                             <div className="w-images">
-                                <img src="images/about-c-1.png" alt="" title="" className="img-md-100" />
+                                <img src={props.image} alt="" title="" className="img-md-100" />
                             </div>
 
                         </div>

@@ -13,7 +13,7 @@ const Services = () => {
       const dataNew ={ 
         classTitle: "banner-service"
       };
-    
+      document.title = "Services";
     return (
     <div className='services'>
         <div className='container'>

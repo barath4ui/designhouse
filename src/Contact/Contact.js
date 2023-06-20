@@ -16,6 +16,8 @@ const Contact = () => {
     classTitle: "banner-contact"
   };
 
+  document.title = "Contact";
+
   return (
     <div className='contact'>
       <div className='container'>

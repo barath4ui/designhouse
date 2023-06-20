@@ -14,7 +14,7 @@ const header = () => {
     <div className="container">
         <div className="header-top pt-4 position-relative">
             <div className="header-logo">
-            <Link to="/"><img src={logo} alt="" title="" /></Link>
+            <Link to="/designhouse"><img src={logo} alt="" title="" /></Link>
             </div>
             <div className="header-menu">
                 <input type="checkbox" id="active" />
@@ -25,23 +25,23 @@ const header = () => {
                         
                         <ul>
                             <li className="m-about">
-                              <a href="/designhouse/about">About</a> 
+                                <Link to="/designhouse/about" className='links mlink' >About</Link> 
                               <div className="menu-img"></div>
                             </li>
                             <li className="m-services">
-                            <a href="/services">Services</a> 
+                            <Link to="/designhouse/services" className='links mlink' >Services</Link> 
                                 <div className="menu-img"></div>
                             </li>
                             <li className="m-works">
-                            <a href="/works">Works</a> 
+                            <Link to="/designhouse/works" className='links mlink' >Works</Link> 
                                 <div className="menu-img"></div>
                             </li>
                             <li className="m-blog">
-                            <a href="/blog">Blog</a> 
+                            <Link to="/designhouse/blog" className='links mlink'  >Blog</Link> 
                                 <div className="menu-img"></div>
                             </li>
                             <li className="m-contact">
-                            <a href="/contact">Contact</a> 
+                            <Link to="/designhouse/contact" className='links mlink' >Contact</Link> 
                                 <div className="menu-img"></div>
                             </li>
                         </ul>

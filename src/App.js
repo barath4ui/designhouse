@@ -18,7 +18,10 @@ import Apihome from './Home/Apihome';
 import Blogdetails from './Blog/Blogdetails/Blogdetails';
 
 
+
 function App() {
+
+ 
   return (
   <div className='App'>
         <Loader />
@@ -26,17 +29,18 @@ function App() {
 
        
         <Routes>
-        
             <Route path='/' element={<Home />} />
-            <Route path='/home' element={<Home />} />
+            <Route path='/designhouse' element={<Home />} />
+            <Route path='/designhouse/home' element={<Home />} />
             <Route path='/designhouse/about' element={<About />} />
-            <Route path='/services' element={< Services />} />
-            <Route path='/works' element={< Works />} />
-            <Route path='/blog' element={< Blog />} />
-            <Route path='/blogdetails' element={< Blogdetails />} />
-            <Route path='/contact' element={<Contact />} />
+            <Route path='/designhouse/services' element={< Services />} />
+            <Route path='/designhouse/works' element={< Works />} />
+            <Route path='/designhouse/blog' element={< Blog />} />
+            <Route path='/designhouse/blogdetails' element={< Blogdetails />} />
+            <Route path='/designhouse/contact' element={<Contact />} />
 
             <Route path='*' element={<Apihome />} />
+
         </Routes>
       
 

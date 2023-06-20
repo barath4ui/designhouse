@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import wns from '../../images/Footer/wns.png';
+import { Link} from 'react-router-dom';
 
 
 const Footer = () => {
@@ -18,7 +19,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div className="footer-logo text-md-end" >
-                            <a href="/"> <img src={wns} alt="" title="" /> </a>
+                            <a href="/designhouse"> <img src={wns} alt="" title="" /> </a>
                             </div>
                         </div>
                     </div>
@@ -36,11 +37,11 @@ const Footer = () => {
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div className="footer-link text-md-end ">
-                                <a href="/designhouse/about">About*</a>
-                                <a href="/services">Services</a>
-                                <a href="/works">Works</a>
-                                <a href="/blog">Blog</a>
-                                <a href="/contact">Contact</a>
+                                <Link to="/designhouse/about" className='links'>About</Link>
+                                <Link to="/designhouse/services" className='links'>Services</Link>
+                                <Link to="/designhouse/works" className='links'>Works</Link>
+                                <Link to="/designhouse/blog" className='links'>Blog</Link>
+                                <Link to="/designhouse/contact" className='links'>Contact</Link>
                             </div>
                         </div>
                     </div>

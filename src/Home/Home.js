@@ -9,6 +9,8 @@ import Clientshome from "./Clientshome";
 
 const Home = () => {
 
+  document.title = "Home";
+
   return (
     <div className='home'>
         <Bannerhome />

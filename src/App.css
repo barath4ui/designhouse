@@ -232,19 +232,11 @@ color:#999;
 list-style-type: square;
 padding-left: 20px;
 }
-.people-img{
-filter: grayscale(100%);
-}
-.people-name{
-color: #444242;
-font-size: 20px;
-}
-.role-txt{
-font-size: 12px;
-margin-bottom: 35px;
-}
+
+
 .content-banner{
 overflow: hidden;
+position: relative;
 }
 .work-proname{
 color:#cccccc;

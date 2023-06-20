@@ -3,9 +3,9 @@ import loader from '../images/Common/loader.jpg';
 
 const Loader = () => {
   return (
-    <div class="page-loader">
-              <div class="spinner"></div>
-              <div class="txt">
+    <div id='loader' className="page-loader">
+              <div className="spinner"></div>
+              <div className="txt">
                   <img src={loader} alt="" title="" />
               </div>
         </div>

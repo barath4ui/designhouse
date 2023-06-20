@@ -1,5 +1,6 @@
 import React from 'react';
 import Blogcontent from '../Json/Blogcontent.json';
+import { Link } from 'react-router-dom';
 
 const Bloglist = () => {
   return (
@@ -17,7 +18,7 @@ const Bloglist = () => {
                         <p>{Blist.content}</p>
                     </div>
                     <div class="readmore">
-                        <a href="/blogdetails">Read more <span class="readmore-icon"></span></a>
+                        <Link to="/designhouse/blogdetails">Read more <span class="readmore-icon"></span></Link>
                     </div>
                 </div>
             </div>

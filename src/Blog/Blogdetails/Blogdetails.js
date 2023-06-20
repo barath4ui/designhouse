@@ -3,6 +3,9 @@ import '../Blog.css';
 import Blogimg from '../../images/Blogs/j-img.png';
 
 const Blogdetails = () => {
+
+  document.title = "Blog Details";
+
   return (
     <div className='blogdetails'>
       <header>
@@ -11,7 +14,7 @@ const Blogdetails = () => {
                     <div className="inner-header inner-about">
                         <div className="back mt-3">
                             <span className="back-icon"></span>
-                            <a className="left-arrow-txt" href="/blog">Back to blog </a>
+                            <a className="left-arrow-txt" href="designhouse/blog">Back to blog </a>
                         </div>
                         <h2 className="mb-5 mt-3">When to involve the UX <br/>Team in a project, and why?</h2>
                         <span className="lg-gray">Author :   </span> <b>Leorem Ipsum</b> <br/>

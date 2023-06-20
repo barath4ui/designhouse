@@ -197,20 +197,7 @@
     height: 100%;
 
     }
-    .about-story 
-    {
-       /* background-image: url(images/about-c-1.png); */
-        background-position: 50% 50%;
-        background-size: cover;
-    }
-    .side-image .w-images{
-        opacity: 0;
-    }
-    .about-how{
-      /*  background-image: url(images/about-c-2.png); */
-        background-position: 50% 50%;
-        background-size: cover;
-    }
+    
 
 }
 
