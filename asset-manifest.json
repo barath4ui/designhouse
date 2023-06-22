@@ -1,7 +1,7 @@
 {
   "main.css": "/designhouse/static/css/main.6953f251.chunk.css",
-  "main.js": "/designhouse/static/js/main.c1dd62b5.chunk.js",
-  "main.js.map": "/designhouse/static/js/main.c1dd62b5.chunk.js.map",
+  "main.js": "/designhouse/static/js/main.d66a871a.chunk.js",
+  "main.js.map": "/designhouse/static/js/main.d66a871a.chunk.js.map",
   "static/js/1.40a91306.chunk.js": "/designhouse/static/js/1.40a91306.chunk.js",
   "static/js/1.40a91306.chunk.js.map": "/designhouse/static/js/1.40a91306.chunk.js.map",
   "static/css/2.8b88c55f.chunk.css": "/designhouse/static/css/2.8b88c55f.chunk.css",
@@ -30,6 +30,6 @@
   "static/css/main.6953f251.chunk.css.map": "/designhouse/static/css/main.6953f251.chunk.css.map",
   "static/css/2.8b88c55f.chunk.css.map": "/designhouse/static/css/2.8b88c55f.chunk.css.map",
   "index.html": "/designhouse/index.html",
-  "precache-manifest.aa3c9f71ae91c3e268ac39cdef05ca21.js": "/designhouse/precache-manifest.aa3c9f71ae91c3e268ac39cdef05ca21.js",
+  "precache-manifest.097a064e45e417ef664ff64d9c11fba7.js": "/designhouse/precache-manifest.097a064e45e417ef664ff64d9c11fba7.js",
   "service-worker.js": "/designhouse/service-worker.js"
 }
