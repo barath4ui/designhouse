@@ -11,14 +11,14 @@ const Footer = () => {
             <div className="footer-top mb-5">
                     <div className="row">
                         <div className="col-md-6 col-sm-12">
-                            <div className="footer-contact text-md-start" >
+                            <div className="footer-contact text-md-start" data-aos="fade-up" >
                                 <h2>Let’s talk.</h2>
                                 <a href="mailto: designhouse@vuram.com">designhouse@vuram.com</a>
                                 
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-12">
-                            <div className="footer-logo text-md-end" >
+                            <div className="footer-logo text-md-end"  data-aos="fade-up">
                             <a href="/designhouse"> <img src={wns} alt="" title="" /> </a>
                             </div>
                         </div>

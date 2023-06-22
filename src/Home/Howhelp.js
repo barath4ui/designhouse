@@ -3,28 +3,28 @@ import Howconent from '../Json/Howcontent.json';
 
 const Howhelp = () => {
   return (
-    <div class="help bg-light section-wrap">
-            <div class="container">
-                <div class="section-head pb-5 mb-3 text-center">
+    <div className="help bg-light section-wrap">
+            <div className="container">
+                <div className="section-head pb-5 mb-3 text-center" data-aos="fade-down">
                     <h2>How we can help you</h2>
                 </div>
-                <div class="help-content text-left">
-                    <div class="row">
+                <div className="help-content text-left">
+                    <div className="row">
                     {Howconent && Howconent.map(How =>{
                         return(
-                        <div class="col-lg-4 col-md-6 col-sm-12" key={How.id} >
-                            <div class="h-header">
-                                <h4><span><img src={How.icon} alt="" title="" /></span><span class="h-text">{How.title}<span class="h-textbar"></span></span></h4>
+                        <div className="col-lg-4 col-md-6 col-sm-12" key={How.id} data-aos="fade-up">
+                            <div className="h-header">
+                                <h4><span><img src={How.icon} alt="" title="" /></span><span className="h-text">{How.title}<span className="h-textbar"></span></span></h4>
                             </div>
-                            <div class="h-content p-3 pt-1 mb-3" >
+                            <div className="h-content p-3 pt-1 mb-3" >
                                 <p>{How.content}</p>
                             </div>
                         </div>
                         )})}                    
                     </div>
                 </div>
-                <div class="section-bottom text-center mt-5">
-                    <a href="service.html" class="btn btn-primary new-primary" role="button" >All Services  <img src="images/arrow.png" alt="" title="" /></a>
+                <div className="section-bottom text-center mt-5" data-aos="fade-up" >
+                    <a href="service.html" className="btn btn-primary new-primary" role="button" >All Services  <img src="images/arrow.png" alt="" title="" /></a>
                 </div>
                 
             </div>

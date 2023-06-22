@@ -7,13 +7,13 @@ const Stories = () => {
   return (
     <div className="stories bg-light section-wrap">
             <div className="container">
-                <div className="section-head pb-5 mb-3 text-center" >
+                <div className="section-head pb-5 mb-3 text-center"  data-aos="fade-down">
                     <h2>Design Stories</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br/> has been the industry’s standard dummy text</p>
                 </div>
                 <div className="stories-content text-left">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-12 s-wrap" >
+                        <div className="col-lg-4 col-md-6 col-sm-12 s-wrap" data-aos="zoom-in">
                             <div className="s-header">
                                 <div className="s-image ">
                                     <img src={stories1} alt="" title="" className="img-sm-100" />
@@ -28,7 +28,7 @@ const Stories = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-sm-12 s-wrap" >
+                        <div className="col-lg-4 col-md-6 col-sm-12 s-wrap" data-aos="zoom-in">
                             <div className="s-header">
                                 <div className="s-image">
                                     <img src={stories2} alt="" title="" className="img-sm-100" />
@@ -43,7 +43,7 @@ const Stories = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-sm-12 s-wrap mb-0" >
+                        <div className="col-lg-4 col-md-6 col-sm-12 s-wrap mb-0" data-aos="zoom-in">
                             <div className="s-header">
                                 <div className="s-image">
                                     <img src={stories3} alt="" title=""  className="img-sm-100"/>
@@ -60,7 +60,7 @@ const Stories = () => {
                                      
                     </div>
                 </div>
-                <div className="section-bottom text-center pt-3 mt-5">
+                <div className="section-bottom text-center pt-3 mt-5"  data-aos="fade-up">
                     <a href="/blog" className="btn btn-primary new-primary" role="button" >See more stories  <img src="images/arrow.png" alt="" title="" /></a>
                 </div>
                 

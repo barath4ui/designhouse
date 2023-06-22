@@ -9,7 +9,7 @@ const Workshome = () => {
             <div className="container">
                 
                 <div className="works-content text-left">
-                    <div className="row animate-work" >
+                    <div className="row animate-work" data-aos="fade-right" >
                         
                         <div className="col-lg-6 col-sm-12 position-relative">
                             <div className="w-wrap p-5">
@@ -34,7 +34,7 @@ const Workshome = () => {
                        
                     </div>
                     <div className="clr clr-100"></div>
-                    <div className="row  animate-work"  >
+                    <div className="row  animate-work" data-aos="fade-left" >
                         <div className="col-lg-6 col-sm-12">
                             <div className="w-images">
                                 <img src={work2} alt="" title="" className="img-md-100" />
@@ -58,7 +58,7 @@ const Workshome = () => {
                         
                     </div>
                     <div className="clr clr-100"></div>
-                    <div className="row animate-work"  >
+                    <div className="row animate-work" data-aos="fade-right" >
                        
                         <div className="col-lg-6 col-sm-12 position-relative">
                             <div className="w-wrap p-5">
@@ -83,7 +83,7 @@ const Workshome = () => {
                     </div>
                     <div className="clr clr-50"></div>
                 </div>
-                <div className="section-bottom text-center pt-3 mt-5">
+                <div className="section-bottom text-center pt-3 mt-5"  data-aos="fade-up">
                     <a href="work.html" className="btn btn-primary new-primary" >See more work  <img src="images/arrow.png" alt="" title="" /></a>
                 </div>
                 

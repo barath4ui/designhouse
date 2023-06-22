@@ -1,6 +1,6 @@
 
 
-import React  from 'react';
+import React, {useEffect}  from 'react';
 import { Routes , Route} from 'react-router-dom';
 import './App.css';
 import './responsive.css';
@@ -16,12 +16,16 @@ import Services from './Services/Services';
 import Blog from './Blog/Blog';
 import Apihome from './Home/Apihome';
 import Blogdetails from './Blog/Blogdetails/Blogdetails';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function App() {
 
- 
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
   <div className='App'>
         <Loader />
@@ -36,7 +40,7 @@ function App() {
             <Route path='/designhouse/services' element={< Services />} />
             <Route path='/designhouse/works' element={< Works />} />
             <Route path='/designhouse/blog' element={< Blog />} />
-            <Route path='/designhouse/blogdetails' element={< Blogdetails />} />
+            <Route path='/designhouse/blog/:id' element={< Blogdetails />} />
             <Route path='/designhouse/contact' element={<Contact />} />
 
             <Route path='*' element={<Apihome />} />

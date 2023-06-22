@@ -3,6 +3,8 @@ import Innerbanner from '../Common/Banners/Innerbanner';
 import Contactform from './Contactform';
 import InnerImageBanner from '../Common/Banners/InnerImageBanner';
 import './Contact.css'
+import Emailform from './Emailform';
+
 
 
 const Contact = () => {
@@ -32,6 +34,8 @@ const Contact = () => {
        <InnerImageBanner  data={dataNew}/>
 
        <Contactform />
+
+      
 
     </div>
   )

@@ -18,7 +18,7 @@ const Bloglist = () => {
                         <p>{Blist.content}</p>
                     </div>
                     <div class="readmore">
-                        <Link to="/designhouse/blogdetails">Read more <span class="readmore-icon"></span></Link>
+                        <Link to={Blist.urls} className='links'>Read more <span class="readmore-icon"></span></Link>
                     </div>
                 </div>
             </div>

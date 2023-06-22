@@ -5,11 +5,13 @@ import Howhelp from "./Howhelp";
 import Workshome from "./Workshome";
 import Stories from "./Stories";
 import Clientshome from "./Clientshome";
+import "./Home.css";
 
 
 const Home = () => {
 
   document.title = "Home";
+
 
   return (
     <div className='home'>
@@ -19,6 +21,7 @@ const Home = () => {
         <Workshome />
         <Stories />
         <Clientshome />
+
     </div>
   )
 }
