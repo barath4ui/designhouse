@@ -8,12 +8,9 @@
 }
 
 .j-banner-img {
-     background-image: url(../images/Blogs/j-banner.png); 
+     background-image: url(../images/Blogs/Blogdetails/Blogdetails-01.png); 
 }
 
-.j-banner-img1 {
-     background-image: url(../images/Blogs/j-banner2.png);
-}
 
 .journal-img {
     Position: relative;
@@ -21,17 +18,7 @@
     background-size: cover;
 }
 
-.j-img1 {
-    background-image: url(../images/Blogs/j-img.png);
-}
 
-.j-img1 {
-    background-image: url(../images/Blogs/j-img1.png);
-}
-
-.j-img2 {
-    background-image: url(../images/Blogs/j-img2.png);
-}
 
 .journal-content {
     padding-left: 25px;

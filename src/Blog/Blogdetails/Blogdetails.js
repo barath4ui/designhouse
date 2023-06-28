@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Blog.css';
-import Blogimg from '../../images/Blogs/j-img.png';
+
 import { Link } from 'react-router-dom';
 
 const Blogdetails = () => {
@@ -17,26 +17,29 @@ const Blogdetails = () => {
                             <span className="back-icon"></span>
                             <Link className="left-arrow-txt" to="/designhouse/blog">Back to blog </Link>
                         </div>
+
                         <h2 className="mb-5 mt-3">When to involve the UX <br/>Team in a project, and why?</h2>
                         <span className="lg-gray">Author :   </span> <b>Leorem Ipsum</b> <br/>
                         <i className="bi bi-calendar4-event lg-gray"> </i> <small className="lg-gray">  31-Jan-2023</small>
-
                     </div>
                 </div>
             </div>
-        </header>
+      </header>
       <div className="banner-wrapper journal-banner-wrapper j-banner-img"></div>
-      <div className="journal section-wrap">
+      <div className='banner-content'>
           <div className="container">
               <div className="col-lg-6 col-md-12 col-sm-12">
                   <div className="j-wrapper bg-yellow position-relative p-3">
                       <h4 className="lg-txt lh-40">
                           By identifying user needs and pain points early in the design process, the UX team can help prevent costly redesigns and rework later in the project.
                       </h4>
-
                   </div>
               </div>
           </div>
+      </div>
+
+
+      <div className="journal section-wrap pt-0">
           <div className="container">
               <div className="journal-content">
                   <h5 className="lg-txt lh-40">
@@ -61,7 +64,7 @@ const Blogdetails = () => {
                     expectations.</span>
                 </div>
               
-                <img src={Blogimg} alt='' title='' className="journal-img mt-5" />
+                
                 <div className="col-lg-10 col-sm-12">
                   <i className="lg-gray f-14">Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem Ipsum has been the industry’s standard dummy text ever
@@ -83,8 +86,7 @@ const Blogdetails = () => {
                 Brown, T. (2008). Design thinking. Harvard business review, 86(6), 84-92.<br/>
                 Lupton, E., & Phillips, J. (2014). Graphic design: The new basics. Chronicle Books.</p>
               </div>
-          </div> 
-                
+          </div>   
       </div>
     </div>
   )

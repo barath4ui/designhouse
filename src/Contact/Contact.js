@@ -32,11 +32,7 @@ const Contact = () => {
        </div>
 
        <InnerImageBanner  data={dataNew}/>
-
        <Contactform />
-
-      
-
     </div>
   )
 }
