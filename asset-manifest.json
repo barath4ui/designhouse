@@ -1,7 +1,7 @@
 {
   "main.css": "/designhouse/static/css/main.a8d8a9fc.chunk.css",
-  "main.js": "/designhouse/static/js/main.391135b1.chunk.js",
-  "main.js.map": "/designhouse/static/js/main.391135b1.chunk.js.map",
+  "main.js": "/designhouse/static/js/main.60e4cd4d.chunk.js",
+  "main.js.map": "/designhouse/static/js/main.60e4cd4d.chunk.js.map",
   "static/js/1.40a91306.chunk.js": "/designhouse/static/js/1.40a91306.chunk.js",
   "static/js/1.40a91306.chunk.js.map": "/designhouse/static/js/1.40a91306.chunk.js.map",
   "static/css/2.8b88c55f.chunk.css": "/designhouse/static/css/2.8b88c55f.chunk.css",
@@ -22,13 +22,13 @@
   "static/media/about-1.png": "/designhouse/static/media/about-1.e698407d.png",
   "static/media/about-2.png": "/designhouse/static/media/about-2.0b45c45e.png",
   "static/media/about-3.png": "/designhouse/static/media/about-3.bc9accf7.png",
-  "static/media/Banners.css": "/designhouse/static/media/banner-service.cb8274b4.png",
+  "static/media/Banners.css": "/designhouse/static/media/banner-home.d0bc1d7d.png",
   "static/media/App.css": "/designhouse/static/media/w-banner.5db1d8e8.png",
-  "static/media/Innerbanner.css": "/designhouse/static/media/h-work.cdcec2ec.png",
+  "static/media/Innerbanner.css": "/designhouse/static/media/h-service.83861c17.png",
   "static/media/Footer.css": "/designhouse/static/media/contact.20de1fd4.png",
-  "static/css/main.a8d8a9fc.chunk.css.map": "/designhouse/static/css/main.a8d8a9fc.chunk.css.map",
   "static/css/2.8b88c55f.chunk.css.map": "/designhouse/static/css/2.8b88c55f.chunk.css.map",
+  "static/css/main.a8d8a9fc.chunk.css.map": "/designhouse/static/css/main.a8d8a9fc.chunk.css.map",
   "index.html": "/designhouse/index.html",
-  "precache-manifest.2a27f1719bbf76537d6c5483e6287b88.js": "/designhouse/precache-manifest.2a27f1719bbf76537d6c5483e6287b88.js",
+  "precache-manifest.8eb72608a5e145103c282764fb059948.js": "/designhouse/precache-manifest.8eb72608a5e145103c282764fb059948.js",
   "service-worker.js": "/designhouse/service-worker.js"
 }
