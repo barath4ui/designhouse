@@ -1,5 +1,5 @@
 import React from 'react';
-import serviceImg from '../images/Services/service-1.png'
+import serviceImg from '../images/Services/Servlist/Servlist-0.png'
 
 const Whatwedo = () => {
 

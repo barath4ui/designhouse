@@ -145,7 +145,7 @@ color: #fff !important;
   Position: relative;
   overflow: hidden;
   display: block;
-  /* background-image: url(images/readmore.png); */
+  background-image: url(../src/images/Common/Icons/readmore.png);
   background-position: 50% 50%;
   background-size: cover;
   width: 82px;
@@ -328,7 +328,7 @@ font-weight: bold;
 Position: relative;
 overflow: hidden;
 display: block;
-/*  background-image: url(images/back.png); */
+background-image: url(../src/images/Common/Icons/back.png); 
 background-position: 50% 50%;
 background-size: cover;
 width: 82px;
@@ -347,4 +347,18 @@ padding-right: 5rem;
 }
 .pl-5{
 padding-left: 5rem;
+}
+
+.small-icon
+{
+  width: 17px;
+  height: 17px;
+  position: relative;
+  display: inline-block;
+  background-repeat: no-repeat;
+  top:4px;
+  margin-right: 5px;
+}
+.icon-calendar{
+  background-image: url(../src/images/Common/Icons/calendar.png);
 }

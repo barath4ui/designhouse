@@ -7,8 +7,21 @@
     background-size: cover;
 }
 
-.j-banner-img {
-     background-image: url(../images/Blogs/Blogdetails/Blogdetails-01.png); 
+
+.jbannerimg-0 {
+    background-image: url(../images/Blogs/Blogdetails/Blogdetails-0.png); 
+}
+.jbannerimg-1 {
+    background-image: url(../images/Blogs/Blogdetails/Blogdetails-1.png); 
+}
+.jbannerimg-2 {
+    background-image: url(../images/Blogs/Blogdetails/Blogdetails-2.png); 
+}
+.jbannerimg-3 {
+    background-image: url(../images/Blogs/Blogdetails/Blogdetails-3.png); 
+}
+.jbannerimg-4 {
+    background-image: url(../images/Blogs/Blogdetails/Blogdetails-4.png); 
 }
 
 
@@ -27,6 +40,12 @@
     margin-right: 25px;
 }
 
+.blog-content > .row {
+
+    margin-bottom: 50px;
+    
+}
+
 @media (min-width: 1200px) { 
 
     .journal-content{
@@ -34,8 +53,15 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .w-images img {
+        height: 340px;
+    }
 }
-
+@media (min-width: 992px){
+    .pr-lg-5{
+        padding-right: 50px;
+    }
+}
 @media (max-width: 991.98px) {
 .journal-content{
     padding-left: 10px !important;

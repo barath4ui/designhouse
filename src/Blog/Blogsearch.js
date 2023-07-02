@@ -1,5 +1,5 @@
 import React from 'react';
-
+import search from '../images/Common/Icons/search.png'
 
 const Blogsearch = () => {
   return (
@@ -8,7 +8,7 @@ const Blogsearch = () => {
             <h2>The Stories</h2>
             <div className="search">
                 <input type="text" className="form-control" placeholder="Search the story…" />
-                <button className="btn search-btn"><img src="images/search.png" alt="" title="" /></button>
+                <button className="btn search-btn"><img src={search} alt="" title="" /></button>
                 <p className="mt-4"><span className="search-entries">28 entries</span></p>
             </div>
         </div>
