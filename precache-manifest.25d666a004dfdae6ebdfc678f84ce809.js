@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5fde9eb9dc45332017cf",
+    "revision": "78bab8699b462958c7d6",
     "url": "/designhouse/static/css/main.3cf6d0fe.chunk.css"
   },
   {
-    "revision": "5fde9eb9dc45332017cf",
-    "url": "/designhouse/static/js/main.5fde9eb9.chunk.js"
+    "revision": "78bab8699b462958c7d6",
+    "url": "/designhouse/static/js/main.78bab869.chunk.js"
   },
   {
     "revision": "40a913067904795b6e96",
@@ -36,20 +36,20 @@ self.__precacheManifest = [
     "url": "/designhouse/static/media/Blogdetails-1.b853fecc.png"
   },
   {
-    "revision": "08daae458708a0d52ca5f4addf1cc4c5",
-    "url": "/designhouse/static/media/Blogdetails-0.08daae45.png"
-  },
-  {
     "revision": "962a58230b33e7d4f945aecab3ad2666",
     "url": "/designhouse/static/media/Blogdetails-3.962a5823.png"
+  },
+  {
+    "revision": "2d41589e6779a3cb83e9b217c4445d2a",
+    "url": "/designhouse/static/media/Blogdetails-4.2d41589e.png"
   },
   {
     "revision": "f15de1ed93fccba38911cbdffddb619c",
     "url": "/designhouse/static/media/Blogdetails-2.f15de1ed.png"
   },
   {
-    "revision": "2d41589e6779a3cb83e9b217c4445d2a",
-    "url": "/designhouse/static/media/Blogdetails-4.2d41589e.png"
+    "revision": "08daae458708a0d52ca5f4addf1cc4c5",
+    "url": "/designhouse/static/media/Blogdetails-0.08daae45.png"
   },
   {
     "revision": "244d36a5c022dcaa1cf5d46d968d1d6f",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/designhouse/static/media/h-work.cdcec2ec.png"
   },
   {
-    "revision": "52a4f3ac1c1cf75d7e72738244096ade",
+    "revision": "1cff6da4e78d4cdc0c5b029ce78e7596",
     "url": "/designhouse/index.html"
   }
 ];

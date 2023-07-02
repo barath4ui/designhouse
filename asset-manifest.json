@@ -1,7 +1,7 @@
 {
   "main.css": "/designhouse/static/css/main.3cf6d0fe.chunk.css",
-  "main.js": "/designhouse/static/js/main.5fde9eb9.chunk.js",
-  "main.js.map": "/designhouse/static/js/main.5fde9eb9.chunk.js.map",
+  "main.js": "/designhouse/static/js/main.78bab869.chunk.js",
+  "main.js.map": "/designhouse/static/js/main.78bab869.chunk.js.map",
   "static/js/1.40a91306.chunk.js": "/designhouse/static/js/1.40a91306.chunk.js",
   "static/js/1.40a91306.chunk.js.map": "/designhouse/static/js/1.40a91306.chunk.js.map",
   "static/css/2.8b88c55f.chunk.css": "/designhouse/static/css/2.8b88c55f.chunk.css",
@@ -11,7 +11,7 @@
   "runtime~main.js.map": "/designhouse/static/js/runtime~main.fda9ac48.js.map",
   "static/media/Servlist-0.png": "/designhouse/static/media/Servlist-0.51613f67.png",
   "static/media/clients-1.jpg": "/designhouse/static/media/clients-1.2365632f.jpg",
-  "static/media/Blog.css": "/designhouse/static/media/Blogdetails-4.2d41589e.png",
+  "static/media/Blog.css": "/designhouse/static/media/Blogdetails-0.08daae45.png",
   "static/media/work1.png": "/designhouse/static/media/work1.244d36a5.png",
   "static/media/work2.png": "/designhouse/static/media/work2.47e1268f.png",
   "static/media/work3.png": "/designhouse/static/media/work3.2b722a8c.png",
@@ -26,9 +26,9 @@
   "static/media/App.css": "/designhouse/static/media/w-banner.5db1d8e8.png",
   "static/media/Innerbanner.css": "/designhouse/static/media/h-work.cdcec2ec.png",
   "static/media/Footer.css": "/designhouse/static/media/contact.20de1fd4.png",
-  "static/css/main.3cf6d0fe.chunk.css.map": "/designhouse/static/css/main.3cf6d0fe.chunk.css.map",
   "static/css/2.8b88c55f.chunk.css.map": "/designhouse/static/css/2.8b88c55f.chunk.css.map",
+  "static/css/main.3cf6d0fe.chunk.css.map": "/designhouse/static/css/main.3cf6d0fe.chunk.css.map",
   "index.html": "/designhouse/index.html",
-  "precache-manifest.fb8c5d2c714883e287a35687ae736a43.js": "/designhouse/precache-manifest.fb8c5d2c714883e287a35687ae736a43.js",
+  "precache-manifest.25d666a004dfdae6ebdfc678f84ce809.js": "/designhouse/precache-manifest.25d666a004dfdae6ebdfc678f84ce809.js",
   "service-worker.js": "/designhouse/service-worker.js"
 }
