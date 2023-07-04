@@ -18,9 +18,16 @@ import Apihome from './Home/Apihome';
 import Blogdetails from './Blog/Blogdetails/Blogdetails';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Posts from './Posts/Posts';
+import Postlists from './Posts/Postlists';
+import Post from './Posts/Post';
+import Serviceslist from './Services/Serviceslist';
+import Servicedetails from './Services/Servicedetails';
 
 
 function App() {
+  
+  
 
   useEffect(() => {
     AOS.init();
@@ -37,13 +44,21 @@ function App() {
             <Route path='/designhouse' element={<Home />} />
             <Route path='/designhouse/home' element={<Home />} />
             <Route path='/designhouse/about' element={<About />} />
-            <Route path='/designhouse/services' element={< Services />} />
+            <Route path='/designhouse/services' element={< Services />} >
+              <Route index element={<Serviceslist />} />
+              <Route path=":slug" element={<Servicedetails />} />
+            </Route>
             <Route path='/designhouse/works' element={< Works />} />
             <Route path='/designhouse/blog' element={< Blog />} />
             <Route path='/designhouse/blog/:id' element={< Blogdetails />} />
             <Route path='/designhouse/contact' element={<Contact />} />
 
             <Route path='*' element={<Apihome />} />
+
+            <Route path="/posts" element={<Posts />}>
+              <Route index element={<Postlists />} />
+              <Route path=":slug" element={<Post />} />
+            </Route>
 
         </Routes>
       

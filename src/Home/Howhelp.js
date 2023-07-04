@@ -1,5 +1,7 @@
 import React from 'react';
 import Howconent from '../Json/Howcontent.json';
+import Arrow from '../images/Common/Icons/arrow.png';
+import { Link } from 'react-router-dom';
 
 const Howhelp = () => {
   return (
@@ -14,7 +16,7 @@ const Howhelp = () => {
                         return(
                         <div className="col-lg-4 col-md-6 col-sm-12" key={How.id} data-aos="fade-up">
                             <div className="h-header">
-                                <h4><span><img src={How.icon} alt="" title="" /></span><span className="h-text">{How.title}<span className="h-textbar"></span></span></h4>
+                                <h4><span className='help-icon'><img src={How.icon} alt="" title="" /></span><span className="h-text">{How.title}<span className="h-textbar"></span></span></h4>
                             </div>
                             <div className="h-content p-3 pt-1 mb-3" >
                                 <p>{How.content}</p>
@@ -24,7 +26,7 @@ const Howhelp = () => {
                     </div>
                 </div>
                 <div className="section-bottom text-center mt-5" data-aos="fade-up" >
-                    <a href="service.html" className="btn btn-primary new-primary" role="button" >All Services  <img src="images/arrow.png" alt="" title="" /></a>
+                   <Link to="/designhouse/services" className="btn btn-primary new-primary" role="button" >All Services  <img src={Arrow} alt="" title="" /></Link>
                 </div>
                 
             </div>

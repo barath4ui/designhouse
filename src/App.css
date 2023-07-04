@@ -362,3 +362,54 @@ padding-left: 5rem;
 .icon-calendar{
   background-image: url(../src/images/Common/Icons/calendar.png);
 }
+
+.imageplus-content{
+  margin: 60px 0;
+}
+.imageplus-content p{
+  font-size: 14px;
+  font-style: italic;
+  color: #999999;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.headplus-list ul{
+  list-style: square;
+}
+.headplus-list li{
+  margin-bottom: 25px;
+}
+
+.headplus-content h4, .headplus-list h4{
+  margin-bottom: 25px;
+}
+
+.dividerline{
+  margin: 70px 0;
+}
+
+.reference{
+  margin-bottom: 80px;
+}
+.reference ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.reference ul li{
+  margin-top: 25px;
+}
+.reference ul li a{
+ text-decoration: none;
+ color: #3100D3;
+}
+.reference ul li a:hover{
+  text-decoration: underline;
+}
+
+.btspace{
+  margin-bottom: 100px;
+}
+.works-content > .btspace:last-child{
+  margin-bottom: 0;
+}

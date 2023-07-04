@@ -1,15 +1,15 @@
 import React from 'react';
-import stories1 from '../images/Stories/stories-1.png';
-import stories2 from '../images/Stories/stories-2.png';
-import stories3 from '../images/Stories/stories-3.png';
+import stories1 from '../images/Home/Articles/article-1.png';
+import stories2 from '../images/Home/Articles/article-2.png';
+import stories3 from '../images/Home/Articles/article-3.png';
 
 const Stories = () => {
   return (
     <div className="stories bg-light section-wrap">
             <div className="container">
                 <div className="section-head pb-5 mb-3 text-center"  data-aos="fade-down">
-                    <h2>Design Stories</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br/> has been the industry’s standard dummy text</p>
+                    <h2>Articles</h2>
+                    <p className='art-content'>Explore the articles to get insights, tips, and best practices on various design topics such as user research and visualisation of ideas.</p>
                 </div>
                 <div className="stories-content text-left">
                     <div className="row">
@@ -18,13 +18,13 @@ const Stories = () => {
                                 <div className="s-image ">
                                     <img src={stories1} alt="" title="" className="img-sm-100" />
                                 </div>
-                                <h4 className="mt-4">Lorem Ipsum is simply dummy text</h4>
+                                <h4 className="mt-4">When to involve the UX team in a project, Why?</h4>
                             </div>
                             <div className="s-content pt-1 mb-3">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p>UX design focuses on creating meaningful experiences for users by understanding their needs, behaviours, and preferences </p>
                             </div>
                             <div className="readmore">
-                                <a href="/blog">Read more <span className="readmore-icon"></span></a>
+                                <a href="/designhouse/blog">Read more <span className="readmore-icon"></span></a>
                             </div>
                         </div>
 
@@ -33,13 +33,13 @@ const Stories = () => {
                                 <div className="s-image">
                                     <img src={stories2} alt="" title="" className="img-sm-100" />
                                 </div>
-                                <h4 className="mt-4">Lorem Ipsum is simply dummy text</h4>
+                                <h4 className="mt-4">Importance of user research before starting design</h4>
                             </div>
                             <div className="s-content pt-1 mb-3">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p>User research is the process of gathering information about users to understand their needs, pain points, behaviours, and preferences.</p>
                             </div>
                             <div className="readmore">
-                                <a href="/blog">Read more <span className="readmore-icon"></span></a>
+                                <a href="/designhouse/blog">Read more <span className="readmore-icon"></span></a>
                             </div>
                         </div>
 
@@ -48,13 +48,13 @@ const Stories = () => {
                                 <div className="s-image">
                                     <img src={stories3} alt="" title=""  className="img-sm-100"/>
                                 </div>
-                                <h4 className="mt-4">Lorem Ipsum is simply dummy text</h4>
+                                <h4 className="mt-4">Can generic UX guidelines replace the UCD process?</h4>
                             </div>
                             <div className="s-content pt-1 mb-3">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p>UX guidelines provide general principles and best practices that can be applied to a wide range of designs.</p>
                             </div>
                             <div className="readmore">
-                                <a href="/blog">Read more <span className="readmore-icon"></span></a>
+                                <a href="/designhouse/blog">Read more <span className="readmore-icon"></span></a>
                             </div>
                         </div>
                                      

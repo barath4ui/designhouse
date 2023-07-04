@@ -1,5 +1,7 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import $ from 'jquery';
 import Blogcontent from '../../Json/Blogcontent.json';
 import '../Blog.css';
 import { useParams } from 'react-router-dom';
@@ -10,10 +12,22 @@ import Extracontent3 from './Extracontent3';
 import Extracontent4 from './Extracontent4';
 
 
-
-
-
 const Blogdetails = () => {
+
+    $(function() {
+        console.log("FadIn*")
+        setTimeout(function(){ // allowing 3 secs to fade out loader
+        $('.page-loader').fadeOut('slow');
+        },1000);
+
+        console.log("Fadout*")
+    });
+    
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+  
 
   const {id} = useParams();
 
@@ -22,9 +36,15 @@ const Blogdetails = () => {
   const j = {id};
   const i = j.id ;
 
+  
+
   return (
+
+    
    
     <div className='blogdetails'>
+    
+   
        
     {Blogcontent && Blogcontent.map(Blist =>{
 
@@ -72,7 +92,7 @@ const Blogdetails = () => {
                                 {Blist.blog[i].content}
                             </h5>
                             <br/>
-
+                    </div>
                             { i==="0"?<Extracontent0  />:""}
                             { i==="1"?<Extracontent1  />:""}
                             { i==="2"?<Extracontent2  />:""}
@@ -80,7 +100,7 @@ const Blogdetails = () => {
                             { i==="4"?<Extracontent4  />:""}
 
                             <br/>
-                    </div>
+                    
 
                     
                 </div>

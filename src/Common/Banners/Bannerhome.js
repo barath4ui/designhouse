@@ -6,7 +6,7 @@ const Bannerhome = () => {
     <div className='home-banner'>
         <div className='container'>
             <div className="header-content pt-5 pb-5">
-            <h2>Automating systems by <br/>human centred design</h2>
+            <h2>Human Centered Design, adding life to automated systems</h2>
             </div>
         </div>
 

@@ -1,4 +1,7 @@
 import React from 'react';
+import WorkImages from './WorkImages';
+import Arrow from '../images/Common/Icons/arrow.png';
+import { Link } from 'react-router-dom';
 
 
 const Worklist = () => {
@@ -25,7 +28,7 @@ const Worklist = () => {
                                         <a href="work-detail.html"  className="w-links">
                                         <div className="s-header">
                                             <div className="s-image ">
-                                                <img src="images/work-p-2-1.png" alt="" title="" className="img-sm-100" />
+                                                <img src={WorkImages.workImg1} alt="" title="" className="img-sm-100" />
                                             </div>
                                             <h6 className="mt-4 work-proname">HSBC</h6>
                                             <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
@@ -39,7 +42,7 @@ const Worklist = () => {
                                         <a href="work-detail.html"  className="w-links">
                                         <div className="s-header">
                                             <div className="s-image ">
-                                                <img src="images/work-p-2-2.png" alt="" title="" className="img-sm-100" />
+                                                <img src={WorkImages.workImg2} alt="" title="" className="img-sm-100" />
                                             </div>
                                             <h6 className="mt-4 work-proname">HSBC</h6>
                                             <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
@@ -53,7 +56,7 @@ const Worklist = () => {
                                         <a href="work-detail.html"  className="w-links">
                                         <div className="s-header">
                                             <div className="s-image ">
-                                                <img src="images/work-p-3-1.png" alt="" title="" className="img-sm-100" />
+                                                <img src={WorkImages.workImg3} alt="" title="" className="img-sm-100" />
                                             </div>
                                             <h6 className="mt-4 work-proname">HSBC</h6>
                                             <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
@@ -68,7 +71,7 @@ const Worklist = () => {
                                         <a href="work-detail.html"  className="w-links">
                                         <div className="s-header">
                                             <div className="s-image">
-                                                <img src="images/work-p-3-2.png" alt="" title="" className="img-sm-100" />
+                                                <img src={WorkImages.workImg4}  alt="" title="" className="img-sm-100" />
                                             </div>
                                             <h6 className="mt-4 work-proname">HSBC</h6>
                                             <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
@@ -83,7 +86,7 @@ const Worklist = () => {
                                         <a href="work-detail.html"  className="w-links">
                                         <div className="s-header">
                                             <div className="s-image">
-                                                <img src="images/work-p-3-3.png" alt="" title=""  className="img-sm-100"/>
+                                                <img src={WorkImages.workImg5}  alt="" title=""  className="img-sm-100"/>
                                             </div>
                                             <h6 className="mt-4 work-proname">HSBC</h6>
                                             <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
@@ -97,7 +100,7 @@ const Worklist = () => {
                                 </div>
                             </div>
                             <div className="section-bottom text-center pt-3 mt-2">
-                                <a href="/Works" className="btn btn-primary new-primary" role="button" >Load More <img src="images/arrow.png" alt="" title="" /></a>
+                                <Link to="/designhouse/Works" className="btn btn-primary new-primary" role="button" >Load More <img src={Arrow} alt="" title="" /></Link>
                             </div>
                         </div>
                         <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>

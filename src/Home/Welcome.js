@@ -10,12 +10,16 @@ const Welcome = () => {
                     <div class="row">
                         <div class="col-md-6 col-sm-12" data-aos="fade-right" >
                             <div class="w-left max-sm-b-50 md-pr-50">
-                                <h2>A WNS Vuram initiative, to perfect automated products and services using research based <span class="h-text">design practice  <span class="h-textbar"></span></span></h2>
+                                <h2>A WNS Vuram initiative, to perfect automated products and services using research based  <span class="h-text">design practice  <span class="h-textbar"></span></span></h2>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12" data-aos="fade-left" >
                             <div class="w-right">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                                <p>It is a team of design thinking consultants, UX architects, user researchers, front-end 
+developers, visual designers, and content creators. Design House is a team with all 
+the required expertise to solve design problems from concept to implementation. Our 
+strong base in intelligent automation is an added advantage to successfully 
+implementing smart solutions.</p>
                                 <div class="readmore">
                                     <a href="about.html">Explore <span class="readmore-icon"></span></a>
                                 </div>

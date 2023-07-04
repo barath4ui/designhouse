@@ -2,7 +2,7 @@
    "blog":[
     {
        "id": "0",
-       "icon": "images/Blogs/Bloglist/Bloglist-0.png",
+       "icon": "../images/Blogs/Bloglist/Bloglist-0.png",
        "title": "When to involve the UX Team in a project, and why?",
        "author": "Barathkumar",
        "date": "31-Jan-2023",
@@ -11,7 +11,7 @@
     },
     {
         "id": "1",
-        "icon": "images/Blogs/Bloglist/Bloglist-1.png",
+        "icon": "../images/Blogs/Bloglist/Bloglist-1.png",
         "title": "Importance of user research before starting design",
         "author": "Barathkumar R",
         "date": "31-Jan-2023",
@@ -20,7 +20,7 @@
      },
      {
         "id": "2",
-        "icon": "images/Blogs/Bloglist/Bloglist-2.png",
+        "icon": "../images/Blogs/Bloglist/Bloglist-2.png",
         "title": "UI, It’s just tip of the iceberg",
         "author": "Barathkumar Ramadoss",
         "date": "31-Jan-2023",
@@ -30,7 +30,7 @@
      },
      {
          "id": "3",
-         "icon": "images/Blogs/Bloglist/Bloglist-3.png",
+         "icon": "../images/Blogs/Bloglist/Bloglist-3.png",
          "title": "Can UX guidelines provided along with a tool replace the UCD process?",
          "author": "Barathkumar R",
          "date": "31-Jan-2023",
@@ -39,7 +39,7 @@
       },
       {
          "id": "4",
-         "icon": "images/Blogs/Bloglist/Bloglist-4.png",
+         "icon": "../images/Blogs/Bloglist/Bloglist-4.png",
          "title": "Lean UX",
          "author": "Barathkumar",
          "date": "31-Jan-2023",

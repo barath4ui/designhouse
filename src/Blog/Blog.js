@@ -2,7 +2,8 @@ import React from 'react';
 import Innerbanner from '../Common/Banners/Innerbanner';
 import Bloglist from './Bloglist';
 import Blogsearch from './Blogsearch';
-import './Blog.css'
+import './Blog.css';
+
 
 const Blog = () => {
     const  data ={
