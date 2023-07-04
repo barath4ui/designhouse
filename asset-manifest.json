@@ -1,7 +1,7 @@
 {
   "main.css": "/designhouse/static/css/main.5303b60d.chunk.css",
-  "main.js": "/designhouse/static/js/main.7011e39c.chunk.js",
-  "main.js.map": "/designhouse/static/js/main.7011e39c.chunk.js.map",
+  "main.js": "/designhouse/static/js/main.b155c8a1.chunk.js",
+  "main.js.map": "/designhouse/static/js/main.b155c8a1.chunk.js.map",
   "static/js/1.f13e2d7f.chunk.js": "/designhouse/static/js/1.f13e2d7f.chunk.js",
   "static/js/1.f13e2d7f.chunk.js.map": "/designhouse/static/js/1.f13e2d7f.chunk.js.map",
   "static/css/2.6f239e05.chunk.css": "/designhouse/static/css/2.6f239e05.chunk.css",
@@ -11,7 +11,7 @@
   "runtime~main.js.map": "/designhouse/static/js/runtime~main.e077d3ec.js.map",
   "static/media/contentimg-1.png": "/designhouse/static/media/contentimg-1.418af391.png",
   "static/media/clients-1.jpg": "/designhouse/static/media/clients-1.2365632f.jpg",
-  "static/media/Blog.css": "/designhouse/static/media/Blogdetails-4.212401f8.png",
+  "static/media/Blog.css": "/designhouse/static/media/Blogdetails-3.d1a7c1b3.png",
   "static/media/home-works-1.png": "/designhouse/static/media/home-works-1.1aeecf9d.png",
   "static/media/home-works-2.png": "/designhouse/static/media/home-works-2.47e1268f.png",
   "static/media/home-works-3.png": "/designhouse/static/media/home-works-3.3dc847b7.png",
@@ -25,9 +25,9 @@
   "static/media/Banners.css": "/designhouse/static/media/banner-home.d0bc1d7d.png",
   "static/media/how-we-work.png": "/designhouse/static/media/how-we-work.79ecb777.png",
   "static/media/App.css": "/designhouse/static/media/w-banner.5db1d8e8.png",
-  "static/media/Header.css": "/designhouse/static/media/m-contact.f36fda34.png",
+  "static/media/Header.css": "/designhouse/static/media/m-works.0aa8fc51.png",
   "static/media/Footer.css": "/designhouse/static/media/contact.20de1fd4.png",
-  "static/media/Innerbanner.css": "/designhouse/static/media/h-service.83861c17.png",
+  "static/media/Innerbanner.css": "/designhouse/static/media/h-work.cdcec2ec.png",
   "static/media/work-2-column-1.png": "/designhouse/static/media/work-2-column-1.8c34c558.png",
   "static/media/work-2-column-2.png": "/designhouse/static/media/work-2-column-2.4d910ef6.png",
   "static/media/work-3-column-1.png": "/designhouse/static/media/work-3-column-1.d405b161.png",
@@ -36,6 +36,6 @@
   "static/css/2.6f239e05.chunk.css.map": "/designhouse/static/css/2.6f239e05.chunk.css.map",
   "static/css/main.5303b60d.chunk.css.map": "/designhouse/static/css/main.5303b60d.chunk.css.map",
   "index.html": "/designhouse/index.html",
-  "precache-manifest.461c02cde306eb66122841aa3e599baf.js": "/designhouse/precache-manifest.461c02cde306eb66122841aa3e599baf.js",
+  "precache-manifest.42ddd1dec7ab51fe1ca52eb7808f97c3.js": "/designhouse/precache-manifest.42ddd1dec7ab51fe1ca52eb7808f97c3.js",
   "service-worker.js": "/designhouse/service-worker.js"
 }
