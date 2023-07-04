@@ -24,7 +24,7 @@ const Workshome = () => {
 A smart application to manage the design deliverables to enhance Productivity and Time Management.</p>
                                 </div>
                                 <div className="readmore">
-                                    <a href="/designhouse/works">Read more <span className="readmore-icon"></span></a>
+                                    <Link to="/designhouse/works" >Read more <span className="readmore-icon"></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ A smart application to manage the design deliverables to enhance Productivity an
                                     <p>An innovative way to promote sustainability among individuals for the creation of positive environmental, social and governance impact. A platform to manage ESG activities effectively.</p>
                                 </div>
                                 <div className="readmore">
-                                    <a href="/designhouse/works">Read more <span className="readmore-icon"></span></a>
+                                    <Link to="/designhouse/works" >Read more <span className="readmore-icon"></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ A smart application to manage the design deliverables to enhance Productivity an
                                     <p>First impression is the best impression” it’s  not just a saying, but a psychological fact in the case of people’s experience with a service, product or organisation, and hence it is important in employee onboarding experience.</p>
                                 </div>
                                 <div className="readmore">
-                                    <a href="/designhouse/works">Read more <span className="readmore-icon"></span></a>
+                                    <Link to="/designhouse/works" >Read more <span className="readmore-icon"></span></Link>
                                 </div>
                             </div>
                         </div>

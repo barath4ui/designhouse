@@ -26,7 +26,7 @@ const Stories = () => {
                                 <p>UX design focuses on creating meaningful experiences for users by understanding their needs, behaviours, and preferences </p>
                             </div>
                             <div className="readmore">
-                                <a href="/designhouse/blog">Read more <span className="readmore-icon"></span></a>
+                                <Link to="/designhouse/blog">Read more <span className="readmore-icon"></span></Link>
                             </div>
                         </div>
 
@@ -41,7 +41,7 @@ const Stories = () => {
                                 <p>User research is the process of gathering information about users to understand their needs, pain points, behaviours, and preferences.</p>
                             </div>
                             <div className="readmore">
-                                <a href="/designhouse/blog">Read more <span className="readmore-icon"></span></a>
+                                <Link to="/designhouse/blog">Read more <span className="readmore-icon"></span></Link>
                             </div>
                         </div>
 
@@ -56,9 +56,9 @@ const Stories = () => {
                                 <p>UX guidelines provide general principles and best practices that can be applied to a wide range of designs.</p>
                             </div>
                             <div className="readmore">
-                                <a href="/designhouse/blog">Read more <span className="readmore-icon"></span></a>
-                            </div>
-                        </div>
+                                <Link to="/designhouse/blog">Read more <span className="readmore-icon"></span></Link>
+                            </div>   
+                        </div>      
                                      
                     </div>
                 </div>
