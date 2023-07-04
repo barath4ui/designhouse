@@ -90,29 +90,29 @@
    
   }
   
-  .m-about:hover  .menu-img{
-    background-image: url("../../../src/images/Header/Menu/h-about.png");
+  .m-about:hover  .menu-img, .m-about a:hover  .menu-img{
+    background-image: url("../../images/Header/Menu/m-about.png");
     opacity: 0.2;
-    transition: opacity 0.5s linear 0.5s;
+    transition: opacity 0.5s linear 0.2s;
     
   }
-  .m-services:hover  .menu-img{
-    /* background-image: url("images/m-services.png"); */
+  .m-services:hover  .menu-img, .m-services a:hover  .menu-img{
+    background-image: url("../../images/Header/Menu/m-services.png");
     opacity: 0.2;
     transition: opacity 0.5s linear 0.5s;
   }
-  .m-works:hover  .menu-img{
-    /* background-image: url("images/m-works.png"); */
+  .m-works:hover  .menu-img, .m-works a:hover  .menu-img{
+    background-image: url("../../images/Header/Menu/m-works.png");
     opacity: 0.2;
     transition: opacity 0.5s linear 0.5s;
   }
-  .m-blog:hover  .menu-img{
-    /* background-image: url("images/m-blog.png"); */
+  .m-blog:hover  .menu-img, .m-blog a:hover  .menu-img{
+    background-image: url("../../images/Header/Menu/m-blog.png");
     opacity: 0.2;
     transition: opacity 0.5s linear 0.5s;
   }
-  .m-contact:hover  .menu-img{
-    /* background-image: url("images/m-contact.png"); */
+  .m-contact:hover  .menu-img, .m-contact a:hover  .menu-img{
+    background-image: url("../../images/Header/Menu/m-contact.png");
     opacity: 0.2;
     transition: opacity 0.5s linear 0.5s;
   }
@@ -151,8 +151,6 @@
     position: absolute;
     content: "";
     background: #FECB5E;
-     /*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
-    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
     width: 100%;
     height: 15%;
     left: 0;

@@ -3,56 +3,56 @@
    {
      "id": 0,
      "title": "UX and design thinking consulting",
-     "imgs": "../images/Services/Servlist/Servlist-0.png",
+     "imgs": "images/Services/Servlist/Servlist-0.png",
      "description": "UX consulting is a process where our team of experts provides guidance and recommendations on how to improve the user experience of a digital product."
    },
    "ux-for-automation": 
    {
      "id": 1,
      "title": "UX for automation",
-     "imgs": "../images/Services/Servlist/Servlist-0.png",
+     "imgs": "images/Services/Servlist/Servlist-0.png",
      "description": "User experience (UX) in automation refers to the way users interact with automated systems and how the system design affects their experience. It is essential to consider UX in automation to ensure that users can efficiently and effectively use automated systems to complete tasks."
    },
    "digital-product-design": 
    {
      "id": 2,
      "title": "Digital product design",
-     "imgs": "../images/Services/Servlist/Servlist-0.png",
+     "imgs": "images/Services/Servlist/Servlist-0.png",
      "description": "Product design from research to development and test. Our team is dedicated to providing businesses with custom digital product design services that meet their unique needs and exceed their expectations."
    },
    "ui-design-and-front-end-development": 
    {
      "id": 3,
      "title": "UI design and front-end development",
-     "imgs": "../images/Services/Servlist/Servlist-0.png",
+     "imgs": "images/Services/Servlist/Servlist-0.png",
      "description": "Usually developers without training in design may develop functionality but struggle in creating aesthetically appealing UIs, with an ease of use. We have a team of front end developers who are proficient in design principles, and attention to detail. "
    },
    "user-research-and-analysis": 
    {
      "id": 4,
      "title": "User research and analysis",
-     "imgs": "../images/Services/Servlist/Servlist-0.png",
+     "imgs": "images/Services/Servlist/Servlist-0.png",
      "description": "We are a team of experienced UX researchers who specialise in providing in-depth insights into user behaviour and preferences. Our UX research services are designed to help businesses create user-centred products and services that meet the needs of their target audience. "
    },
    "ui-ux-audit": 
    {
      "id": 5,
      "title": "UI/UX audit",
-     "imgs": "../images/Services/Servlist/Servlist-0.png",
+     "imgs": "images/Services/Servlist/Servlist-0.png",
      "description": "By conducting a thorough evaluation of your product or service’s user experience, we can identify areas for improvement and provide actionable recommendations to enhance the user experience."
    },
    "service-design": 
    {
      "id": 6,
      "title": "Service design",
-     "imgs": "../images/Services/Servlist/Servlist-0.png",
+     "imgs": "images/Services/Servlist/Servlist-0.png",
      "description": "Service design is a process of designing and improving services to enhance their user experience. It is a multidisciplinary approach that combines elements from design, user research, and business strategy to create and optimise services that meet the needs of users and businesses."
    },
    "communication-design-and-branding": 
    {
      "id": 7,
      "title": "Communication design and branding",
-     "imgs": "../images/Services/Servlist/Servlist-0.png",
+     "imgs": "images/Services/Servlist/Servlist-0.png",
      "description": "Communication design aims to create designs that are clear, concise, and visually appealing. It should effectively convey the intended message and engage the audience. Effective communication design can help businesses and organisations communicate their message to the target audience, build brand awareness, and achieve their communication goals."
    }
    

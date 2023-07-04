@@ -2,6 +2,8 @@ import React from 'react';
 import stories1 from '../images/Home/Articles/article-1.png';
 import stories2 from '../images/Home/Articles/article-2.png';
 import stories3 from '../images/Home/Articles/article-3.png';
+import Arrow from '../images/Common/Icons/arrow.png';
+import { Link } from 'react-router-dom';
 
 const Stories = () => {
   return (
@@ -61,7 +63,7 @@ const Stories = () => {
                     </div>
                 </div>
                 <div className="section-bottom text-center pt-3 mt-5"  data-aos="fade-up">
-                    <a href="/blog" className="btn btn-primary new-primary" role="button" >See more stories  <img src="images/arrow.png" alt="" title="" /></a>
+                    <Link to="/designhouse/blog" className="btn btn-primary new-primary" role="button" >See more stories  <img src={Arrow} alt="" title="" /></Link>
                 </div>
                 
             </div>
