@@ -13,9 +13,9 @@ const Contactform = () => {
                                 Get Humane-Centered Solutions</h3>
                         </div>
                         <div className="c-form-wrapper">
-                            <p className="mb-4">Fill out the form and our experts will reach you</p>
+                            <p >Fill out the form and our experts will reach you</p>
                             <form>
-                                    <div className="mb-4">
+                                    
                                     <div className="row">
                                         <div className="col-md-6 col-sm-12">
                                             <label for="userFirst" className="form-label">First Name</label>
@@ -26,8 +26,8 @@ const Contactform = () => {
                                             <input type="email" className="form-control" id="userLast" placeholder="" />
                                         </div>
                                     </div>
-                                    </div>
-                                    <div className="mb-4">
+                                   
+                                  
                                     <div className="row">
                                         <div className="col-md-6 col-sm-12">
                                             <label for="userEmail" className="form-label">Email address</label>
@@ -38,8 +38,7 @@ const Contactform = () => {
                                             <input type="email" className="form-control" id="userOrg" placeholder="" />
                                         </div>
                                     </div>
-                                    </div>
-                                  <div className="mb-4">
+                                  
                                     <div className="row">
                                         <div className="col-md-6 col-sm-12">
                                            
@@ -50,29 +49,27 @@ const Contactform = () => {
                                             </select>
                                         </div>
                                     </div>
-                                  </div>
-                                  <div className="mb-4">
+                                 
                                     <div className="row">
                                         <div className="col-sm-12">
                                             <label for="userSubject" className="form-label">Subject</label>
                                             <input type="text" className="form-control" id="userSubject" placeholder="" />
                                         </div>
                                     </div>
-                                  </div>
-                                  <div className="mb-4">
+                                 
                                     <div className="row">
                                         <div className="col-sm-12">
                                             <label for="exampleFormControlTextarea1" className="form-label">Details</label>
                                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                         </div>
                                     </div>
-                                  </div>
+                                  
                                   <div className="mb-5 mt-3">
                                     <div className="row">
                                         <div className="col-sm-12">
                                             <div className="form-check">
-                                                <input className="form-check-input" type="checkbox" id="gridCheck" />
-                                                <label className="form-check-label" for="gridCheck">
+                                                <input style={{display: "block"}}  className="form-check-input" type="checkbox" id="gridCheck" />
+                                                <label className="form-check-label greylabel" for="gridCheck" >
                                                     By clicking the submit button, you allow us to connect with you using email, phone, or post (as provided) for responding to your query and other marketing activities. This information is protected under our <a href="/contact">Privacy Policy.*</a>
                                                 </label>
                                             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Innerbanner from '../Common/Banners/Innerbanner';
 import Contentbanner from '../Common/Banners/Contentbanner';
 import about1 from '../images/About/about-1.png';
@@ -9,11 +10,13 @@ import howworks from '../images/About/how-we-work.png'
 import Teams from './Teams';
 import './About.css';
 
-
+import { useEffect } from 'react';
 
 const About = () => {
 
-
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const data = {
         pageTitle: "About",
@@ -85,30 +88,30 @@ const About = () => {
                         </div>
                         <div className="clr clr-100"></div>
                         <div className="row" >
+                            <div className="col-lg-6 col-sm-12 img-right">
+                                <div className="w-images">
+                                    <img src={about2} alt="" title="" className="img-md-100" />
+                                </div>
 
-                            <div className="col-lg-6 col-sm-12 position-relative">
+                            </div>
+                            <div className="col-lg-6 col-sm-12 position-relative ">
                                 <div>
                                     <div className="w-header">
 
                                         <h4>Balancing people, business and technology perspectives</h4>
                                     </div>
                                     <div className="w-content pt-1 mt-3 mb-4">
-                                        <p>People perspective: Understanding the needs, wants, and behaviours of users are essential for creating a product that people will use and love. By incorporating a people perspective, designers can create products that are intuitive, accessible, and enjoyable to use.</p>
+                                        <p><b>People perspective:</b> Understanding the needs, wants, and behaviours of users are essential for creating a product that people will use and love. By incorporating a people perspective, designers can create products that are intuitive, accessible, and enjoyable to use.</p>
 
-                                        <p>Business perspective: It’s important to consider the business goals and constraints when designing a product. A product that doesn’t align with the company’s goals or can’t be produced efficiently may not be sustainable in the long run. By incorporating a business perspective, designers can create products that are both user-friendly and financially viable.</p>
+                                        <p><b>Business perspective:</b> It’s important to consider the business goals and constraints when designing a product. A product that doesn’t align with the company’s goals or can’t be produced efficiently may not be sustainable in the long run. By incorporating a business perspective, designers can create products that are both user-friendly and financially viable.</p>
 
-                                        <p>Technology perspective: Understanding the technical capabilities and limitations is important for designing a product that can be built and maintained effectively. By incorporating a technology perspective, designers can ensure that the product is feasible to develop and can be maintained and updated as needed. </p>
+                                        <p><b>Technology perspective:</b> Understanding the technical capabilities and limitations is important for designing a product that can be built and maintained effectively. By incorporating a technology perspective, designers can ensure that the product is feasible to develop and can be maintained and updated as needed. </p>
                                     </div>
 
 
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-sm-12">
-                                <div className="w-images">
-                                    <img src={about2} alt="" title="" className="img-md-100" />
-                                </div>
-
-                            </div>
+                            
 
                         </div>
                         <div className="clr clr-100"></div>
@@ -128,13 +131,13 @@ const About = () => {
                                     <div className="w-content pt-1 mt-3 mb-4">
                                         <p>The goal of evidence-based UX design is to create digital products that are user-centered, effective, and efficient. By using evidence to inform design decisions, designers can create interfaces and products that are more likely to meet the needs and preferences of users. Some of the key methods and techniques used in evidence-based UX design include:</p>
 
-                                        <p>User research: Conducting user research through methods such as interviews, surveys, and usability testing to gather insights about users’ needs, goals, and behaviours.</p>
+                                        <p><b>User research:</b> Conducting user research through methods such as interviews, surveys, and usability testing to gather insights about users’ needs, goals, and behaviours.</p>
 
-                                        <p>Analytics: Analysing user data, such as website traffic, click-through rates, and conversion rates, to gain insights into user behaviour.</p>
+                                        <p><b>Analytics:</b> Analysing user data, such as website traffic, click-through rates, and conversion rates, to gain insights into user behaviour.</p>
 
-                                        <p>A/B testing: Conducting A/B testing to compare two different versions of a design and determine which performs better with users.</p>
+                                        <p><b>A/B testing:</b> Conducting A/B testing to compare two different versions of a design and determine which performs better with users.</p>
 
-                                        <p>Expert reviews: Seeking feedback and input from experts in UX design, information architecture, and other related fields.</p>
+                                        <p><b>Expert reviews:</b> Seeking feedback and input from experts in UX design, information architecture, and other related fields.</p>
                                     </div>
 
                                 </div>

@@ -23,6 +23,7 @@ import Postlists from './Posts/Postlists';
 import Post from './Posts/Post';
 import Serviceslist from './Services/Serviceslist';
 import Servicedetails from './Services/Servicedetails';
+import Scrolltop from './Scrolltop/Scrolltop';
 
 
 function App() {
@@ -62,7 +63,7 @@ function App() {
 
         </Routes>
       
-
+        <Scrolltop />
         <Footer />
     
   </div>

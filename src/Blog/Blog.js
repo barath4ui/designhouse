@@ -3,9 +3,15 @@ import Innerbanner from '../Common/Banners/Innerbanner';
 import Bloglist from './Bloglist';
 import Blogsearch from './Blogsearch';
 import './Blog.css';
+import { useEffect } from 'react';
 
 
 const Blog = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
     const  data ={
         pageTitle: "Blog",
         pageHeading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

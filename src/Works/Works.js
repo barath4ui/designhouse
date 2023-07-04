@@ -1,9 +1,14 @@
 import React from 'react';
 import Innerbanner from '../Common/Banners/Innerbanner';
 import Worklist from './Worklist';
+import { useEffect } from 'react';
 
 
 const Works = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     const  data ={
         pageTitle: "Work",
         pageHeading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
