@@ -25,7 +25,7 @@ const Worklist = () => {
                             <div className="stories-content works-pro text-left">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-12 s-wrap" >
-                                        <a href="work-detail.html"  className="w-links">
+                                        <Link to="/designhouse/workdetails" className="w-links">
                                         <div className="s-header">
                                             <div className="s-image ">
                                                 <img src={WorkImages.workImg1} alt="" title="" className="img-sm-100" />
@@ -36,10 +36,10 @@ const Worklist = () => {
                                         <div className="s-content pt-1 mb-3">
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                                         </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 s-wrap" >
-                                        <a href="work-detail.html"  className="w-links">
+                                        <Link to="/designhouse/workdetails" className="w-links">
                                         <div className="s-header">
                                             <div className="s-image ">
                                                 <img src={WorkImages.workImg2} alt="" title="" className="img-sm-100" />
@@ -50,10 +50,10 @@ const Worklist = () => {
                                         <div className="s-content pt-1 mb-3">
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                                         </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-6 col-sm-12 s-wrap" >
-                                        <a href="work-detail.html"  className="w-links">
+                                        <Link to="/designhouse/workdetails" className="w-links">
                                         <div className="s-header">
                                             <div className="s-image ">
                                                 <img src={WorkImages.workImg3} alt="" title="" className="img-sm-100" />
@@ -64,11 +64,11 @@ const Worklist = () => {
                                         <div className="s-content pt-1 mb-3">
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                                         </div>
-                                        </a>
+                                        </Link>
                                     </div>
             
                                     <div className="col-lg-4 col-md-6 col-sm-12 s-wrap" >
-                                        <a href="work-detail.html"  className="w-links">
+                                        <Link to="/designhouse/workdetails" className="w-links">
                                         <div className="s-header">
                                             <div className="s-image">
                                                 <img src={WorkImages.workImg4}  alt="" title="" className="img-sm-100" />
@@ -79,11 +79,11 @@ const Worklist = () => {
                                         <div className="s-content pt-1 mb-3">
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                                         </div>
-                                        </a>
+                                        </Link>
                                     </div>
             
                                     <div className="col-lg-4 col-md-6 col-sm-12 s-wrap mb-0" >
-                                        <a href="work-detail.html"  className="w-links">
+                                        <Link to="/designhouse/workdetails" className="w-links">
                                         <div className="s-header">
                                             <div className="s-image">
                                                 <img src={WorkImages.workImg5}  alt="" title=""  className="img-sm-100"/>
@@ -94,7 +94,7 @@ const Worklist = () => {
                                         <div className="s-content pt-1 mb-3">
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                                         </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                                  
                                 </div>

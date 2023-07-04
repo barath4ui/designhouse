@@ -24,6 +24,7 @@ import Post from './Posts/Post';
 import Serviceslist from './Services/Serviceslist';
 import Servicedetails from './Services/Servicedetails';
 import Scrolltop from './Scrolltop/Scrolltop';
+import Workdetails from './Works/Workdetails';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
               <Route path=":slug" element={<Servicedetails />} />
             </Route>
             <Route path='/designhouse/works' element={< Works />} />
+            <Route path='/designhouse/workdetails' element={< Workdetails />} />
             <Route path='/designhouse/blog' element={< Blog />} />
             <Route path='/designhouse/blog/:id' element={< Blogdetails />} />
             <Route path='/designhouse/contact' element={<Contact />} />

@@ -34,7 +34,7 @@ const Serviceslist = () => {
                 <h2>What we do</h2>
             </div>
             <div className="works-content text-left">
-            {Object.entries(Allservices).map(([slug, { id, title, description, imgs }]) => (
+            {Object.entries(Allservices).map(([slug, { id, title, description, extra , imgs }]) => (
                 <div className={'row btspace img'+ ((id)%2 ? 'lt':'rt')} key={slug} >
                     <div className={'col-lg-6 col-sm-12 position-relative order'+ ((id)%2 ? '-last':'-first')}>
                         <div>
@@ -43,6 +43,7 @@ const Serviceslist = () => {
                             </div>
                             <div className="w-content pt-1 mt-3 mb-4">
                                 <p>{description}</p>
+                                <p>{extra}</p>
                             </div>
                             <div className="readmore">
                                 <Link to={slug} className='links'>Read more <span className="readmore-icon"></span></Link>
