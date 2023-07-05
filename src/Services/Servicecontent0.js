@@ -8,7 +8,7 @@ const Servicecontent0 = () => {
     <div className='mb-5'>
         <p>The goal of UX consulting is to help businesses create a user-centred design approach that meets the needs and expectations of their target audience. This is a crucial success factor of any product or service. Our UX consultants have a deep understanding of user psychology, usability principles, and industry best practices, which enables them to provide customised solutions that address specific user experience challenges.</p>
         <div className='headplus-list mt-5'>
-            <h4>The benefits of working with Design House are</h4>
+            <h4>The UX consulting process typically involves the following steps:</h4>
             <ul>
               <li><b>Understanding the business goals and user needs:</b> We start by understanding the business objectives, target audience, and user needs. This involves conducting user research, analysing data, and defining user personas.</li>
               <li><b>Assessing the current user experience:</b> We evaluate the existing user experience to identify areas of improvement. This involves reviewing the product’s usability, user interface, content, and functionality.</li>
@@ -18,7 +18,7 @@ const Servicecontent0 = () => {
             </ul>
         </div>
         <div className='headplus-list mt-5'>
-            <h4>The benefits of working with Design House are</h4>
+            <h4>Some of the benefits of UX consulting include:</h4>
             <ul>
               <li><b>Improved user satisfaction:</b> By creating a user-centred design, businesses can improve the user experience and increase user satisfaction.</li>
               <li><b>Increased conversions:</b> A better user experience can lead to increased conversions and improved business performance.</li>
