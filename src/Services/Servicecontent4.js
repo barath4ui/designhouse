@@ -5,9 +5,20 @@ const Servicecontent4 = () => {
 
     return (
         <div className='mb-5'>
-        <p>One example of the importance of UX in automation is in self-driving cars. The design of the car’s interface, such as the dashboard and touchscreen, can significantly affect how users interact with the car’s automated features. For example, a poorly designed interface that is difficult to understand or use could lead to confusion and frustration for the driver, making it less likely that they will use the car’s automated features.</p>
-        <p>Another example is in chatbots, which are becoming increasingly popular in customer service. A well-designed chatbot can provide a seamless and efficient customer service experience, while a poorly designed one can frustrate and annoy users.</p>
-        <p>Another example UX for a recruitment and onboarding platform will help several user groups(candidates, new joiners, HR and operations team etc) to have an easy and effective interaction with the system.</p>
+        <p>At Design House, we believe that user research is an essential part of the UX design process. By understanding the needs, preferences, and behaviours of your target audience, we can create designs that are intuitive, easy to use, and enjoyable.</p>
+        <div className='headplus-list mt-5 mb-5'>
+            <h4>Our UX research services include</h4>
+            <ul>
+              <li><b>User Research:</b> We conduct qualitative and quantitative research to gain insights into user behaviour, preferences, and needs. Our user research services include user interviews, surveys, and user testing.</li>
+              <li><b>Competitive Analysis:</b> We analyse your competitors’ products and services to gain a better understanding of the market landscape and identify opportunities for improvement.</li>
+              <li><b>Usability Testing:</b> We conduct usability testing to evaluate the effectiveness of your product or service’s user interface and identify areas for improvement.</li>
+              <li><b>Information Architecture:</b> We help businesses organise and structure their content to create a clear and intuitive user experience. Our information architecture services include card sorting and tree testing.</li>
+              <li><b>Persona Development:</b> We develop user personas to help businesses understand their target audience and create user-centred designs.</li>
+
+            </ul>
+        </div>
+
+        <p>At Design House, we believe that user research is an essential part of the UX design process. By understanding the needs, preferences, and behaviours of your target audience, we can create designs that are intuitive, easy to use, and enjoyable.</p>
         </div>
       )
 }

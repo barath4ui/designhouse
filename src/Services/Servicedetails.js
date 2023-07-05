@@ -10,6 +10,7 @@ import Servicecontent5 from './Servicecontent5';
 import Servicecontent4 from './Servicecontent4';
 import Servicecontent6 from './Servicecontent6';
 import Servicecontent7 from './Servicecontent7';
+import './Services.css';
 
 const Servicedetails = () => {
 

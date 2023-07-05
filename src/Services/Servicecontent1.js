@@ -10,6 +10,7 @@ const Servicecontent1 = () => {
         <p>Another example is in chatbots, which are becoming increasingly popular in customer service. A well-designed chatbot can provide a seamless and efficient customer service experience, while a poorly designed one can frustrate and annoy users.</p>
         <p>Another example UX for a recruitment and onboarding platform will help several user groups(candidates, new joiners, HR and operations team etc) to have an easy and effective interaction with the system.</p>
     </div>
+    
   )
 }
 

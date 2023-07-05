@@ -2,6 +2,7 @@ import React from 'react';
 import Innerbanner from '../Common/Banners/Innerbanner';
 import Worklist from './Worklist';
 import { useEffect } from 'react';
+import './Works.css';
 
 
 const Works = () => {

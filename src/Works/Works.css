@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    .new-tabs li{
+        margin: 0 15px;
+    }
+    
+    .new-tabs li .nav-link.active{
+        font-size: 12px;
+        border-bottom: 5px solid #FECB5E;
+    }
+    
+    .new-tabs li .nav-link{
+        font-size: 12px;
+    }
+}

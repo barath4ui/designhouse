@@ -9,8 +9,8 @@ import Allservices from '../Json/Servicecontent.json';
 const Serviceslist = () => {
     const  data ={
         pageTitle: "Services",
-        pageHeading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        pageContent: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        pageHeading: "User Centred Design for automated solutions",
+        pageContent: "A meaningful design gives life to automated systems. We provide research based designs that will be helpful to the users to solve problems.",
       };
       const dataNew ={ 
         classTitle: "banner-service"
