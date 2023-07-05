@@ -36,7 +36,14 @@ const Serviceslist = () => {
             <div className="works-content text-left">
             {Object.entries(Allservices).map(([slug, { id, title, description, extra , imgs }]) => (
                 <div className={'row btspace img'+ ((id)%2 ? 'lt':'rt')} key={slug} >
-                    <div className={'col-lg-6 col-sm-12 position-relative order'+ ((id)%2 ? '-last':'-first')}>
+                    
+                    <div className={'col-lg-6 col-sm-12 img'+ ((id)%2 ? '-first':'-right')}>
+                        <div className="w-images">
+                            <img src={imgs} alt="" title="" className="img-md-100" />
+                        </div>
+                    </div>
+
+                    <div className='col-lg-6 col-sm-12 position-relative '>
                         <div>
                             <div className="w-header">
                                 <h4>{title}</h4>
@@ -50,11 +57,7 @@ const Serviceslist = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={'col-lg-6 col-sm-12 order'+ ((id)%2 ? '-first':'-last')}>
-                        <div className="w-images">
-                            <img src={imgs} alt="" title="" className="img-md-100" />
-                        </div>
-                    </div>
+                    
                 </div>
             ))}
             </div>
