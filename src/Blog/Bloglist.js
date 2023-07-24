@@ -22,7 +22,7 @@ const Bloglist = () => {
                     <div className="b-content pt-3 mb-3">
                         <p>{blog.content}</p>
                     </div>
-                    <div className="readmore">
+                    <div className="readmore mt-5">
                         <Link to={blog.id} className='links'>Read more <span className="readmore-icon"></span></Link>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Bloglist = () => {
         </div>
         )})}
 
-        <div className="section-bottom text-center pt-3 mt-5">
+        <div className="section-bottom text-center pt-3 mt-5" style={{display: "none"}}>
             <a href="/blog" className="btn btn-secondary new-secondary" role="button" >Load More</a>
         </div>
     </div>

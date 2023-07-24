@@ -16,7 +16,7 @@ const Contact = () => {
   const  data ={
     pageTitle: "Contact",
     pageHeading: "How can we help you?",
-    pageContent: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    pageContent: "If you would like more information about our services, please fill out our contact form below and a Design House team member will contact you at the earliest.",
   };
 
   const dataNew ={ 

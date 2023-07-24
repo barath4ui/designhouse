@@ -23,7 +23,7 @@ const Stories = () => {
                                 <h4 className="mt-4">When to involve the UX team in a project, Why?</h4>
                             </div>
                             <div className="s-content pt-1 mb-3">
-                                <p>UX design focuses on creating meaningful experiences for users by understanding their needs, behaviours, and preferences </p>
+                                <p>User experience (UX) is a critical aspect of any product design process. UX design focuses on creating meaningful experiences for users by… </p>
                             </div>
                             <div className="readmore">
                                 <Link to="/designhouse/blog">Read more <span className="readmore-icon"></span></Link>
@@ -53,7 +53,7 @@ const Stories = () => {
                                 <h4 className="mt-4">Can generic UX guidelines replace the UCD process?</h4>
                             </div>
                             <div className="s-content pt-1 mb-3">
-                                <p>UX guidelines provide general principles and best practices that can be applied to a wide range of designs.</p>
+                                <p>The User-Centred Design (UCD) process is a design approach that involves understanding the needs and goals of users throughout the design process.</p>
                             </div>
                             <div className="readmore">
                                 <Link to="/designhouse/blog">Read more <span className="readmore-icon"></span></Link>

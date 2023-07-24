@@ -33,7 +33,7 @@ const Servicedetails = () => {
 
   return (
     <div>
-      <header>
+      <header className='yellowheader'>
                       <div className="container">
                           <div className="header-content pt-5 pb-5">
                               <div className="inner-header inner-about">
@@ -44,10 +44,15 @@ const Servicedetails = () => {
       
                                   <h2   className="mb-5 mt-3">{post.title}</h2>
                               </div>
+                              <div className='yellowline yl-100'></div>
                           </div>
                       </div>
+
+                      <div className='yellowline yl-50'></div>
                 </header>
-                <div className={'banner-wrapper journal-banner-wrapper '+'jbannerimg-'+[post.id]}></div>
+                <div className={'banner-wrapper journal-banner-wrapper '+'sbannerimg-'+[post.id]}>
+                  
+                </div>
 
                 <div className='dynamic-blogcontent'>
 

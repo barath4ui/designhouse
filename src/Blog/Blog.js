@@ -14,8 +14,8 @@ const Blog = () => {
 
     const  data ={
         pageTitle: "Blog",
-        pageHeading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        pageContent: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        pageHeading: "Thoughts and stories on design and research",
+        pageContent: "Discover the insights and trends in UX and design research with our informative blog. Dive into the world of user experience design, explore effective research methodologies, and unlock strategies to create exceptional digital experiences. ",
       };
       
       document.title = "Blog";

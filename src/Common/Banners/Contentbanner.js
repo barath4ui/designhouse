@@ -11,8 +11,10 @@ const Contentbanner = (props) => {
                                     <h4>Our Story</h4>
                                 </div>
                                 <div className="w-content pt-1 mt-3">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
-                                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                    <p>Knowing the ‘Why’ of everything was a habit for Vuramites as it helps you to stay closer to the purpose of achieving.
+Being in the business automation journey for more than a decade and now being the pioneers in Hyperautomation services, we constantly have to enrich our solutions with the right balance of humanness by setting the right measure of empathy clubbed to our solutions.
+To enable this need we founded DH, a practice that enforces human centered design to all the customer and employee experience journey at Vuram.</p>
+                                    
                                 </div>
                             </div>
                         </div>

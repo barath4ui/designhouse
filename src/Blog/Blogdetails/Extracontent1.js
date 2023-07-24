@@ -1,13 +1,14 @@
 import React from 'react';
-import contentImg from '../../images/Blogs/Content/contentimg-1.png';
+import contentImg1 from '../../images/Blogs/Blogdetails/blog-1/contentimg-1.png';
+import contentImg2 from '../../images/Blogs/Blogdetails/blog-1/contentimg-2.png';
 
 const Extracontent1 = () => {
   return (
     <div className='journal-dynamic'>
 
       <div className='imageplus-content'>
-        <img src={contentImg} title='' alt='' />
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        <img src={contentImg1} title='' alt='' />
+        
       </div>
 
       <div className='journal-content'>
@@ -22,8 +23,8 @@ const Extracontent1 = () => {
       </div>
       
       <div className='imageplus-content'>
-        <img src={contentImg} title='' alt='' />
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        <img src={contentImg2} title='' alt='' />
+        
       </div>
 
       <div className='journal-content'>
@@ -47,13 +48,13 @@ const Extracontent1 = () => {
             <ul>
                 <li>
                   <p>
-                    Nielsen Norman Group. (2019). Mobile App Usability: UX Best Practices. <br/>
+                  Nielsen Norman Group. (2019). Mobile App Usability: UX Best Practices. <br/>
                     <a href='https://www.nngroup.com/articles/mobile-app-usability-ux-best-practices/' target='blank' >https://www.nngroup.com/articles/mobile-app-usability-ux-best-practices/</a></p>
                 </li>
                 <li>
                   <p>
-                    Nielsen Norman Group. (2019). Mobile App Usability: UX Best Practices. <br/>
-                    <a href='https://www.nngroup.com/articles/mobile-app-usability-ux-best-practices/'  target='blank' >https://www.nngroup.com/articles/mobile-app-usability-ux-best-practices/</a></p>
+                  User Testing. (2018). The Cost of Poor UX Design in 2018. <br/>
+                    <a href='https://www.usertesting.com/blog/the-cost-of-poor-ux-design-in-2018/'  target='blank' >https://www.usertesting.com/blog/the-cost-of-poor-ux-design-in-2018/</a></p>
                 </li>
 
                 <li>

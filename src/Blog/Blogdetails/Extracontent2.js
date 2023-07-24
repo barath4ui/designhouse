@@ -1,43 +1,50 @@
 import React from 'react';
-import contentImg from '../../images/Blogs/Content/contentimg-1.png'
+import contentImg1 from '../../images/Blogs/Blogdetails/blog-2/contentimg-1.png';
+import contentImg2 from '../../images/Blogs/Blogdetails/blog-2/contentimg-2.png'
 
 const Extracontent2 = () => {
   return (
     <div className='journal-dynamic'>
+      
+      <div className='imageplus-content'>
+        <img src={contentImg1} title='' alt='' />
+        
+      </div>
       <div className='journal-content'>
           <div className='headplus-content'>
-            <h4>When to involve the UX team in a project? </h4>
-            <p>The UX team should be involved in a project as early as possible, ideally in the discovery phase. The discovery phase is when the project team is defining the project scope, objectives, and requirements. It is during this phase that the UX team can provide valuable insights into user needs, behaviours, and pain points. By involving the UX team early in the project, they can help shape the project’s direction and ensure that the project meets user expectations.</p>
+            <h4>User Research</h4>
+            <p>At the foundation of UX design lies user research, a crucial step in understanding the needs, behaviors, and goals of the target audience. Through techniques like interviews, surveys, and usability testing, UX designers gain insights into user preferences, pain points, and motivations. By empathizing with users and understanding their context, designers can create experiences that truly resonate.</p>
+          </div>
+          <div className='headplus-content'>
+            <h4>Information Architecture</h4>
+            <p>Information architecture (IA) involves organizing and structuring information in a way that is intuitive and user-friendly. It encompasses tasks such as creating sitemaps, navigation systems, and content hierarchies. Effective IA ensures that users can easily find what they need, reducing friction and enhancing the overall user experience.</p>
+          </div>
+          <div className='headplus-content'>
+            <h4>Interaction Design</h4>
+            <p>Interaction design focuses on designing meaningful and engaging interactions between users and digital interfaces. It involves defining the behavior of interactive elements, such as buttons, forms, and animations. Through thoughtful consideration of user flows, feedback mechanisms, and microinteractions, interaction designers aim to create intuitive and enjoyable experiences that guide users towards their goals.</p>
           </div>
       </div>
       <div className='imageplus-content'>
-        <img src={contentImg} title='' alt='' />
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        <img src={contentImg2} title='' alt='' />
+        
       </div>
-      <div className='journal-content'>
-          <div className='headplus-list'>
-            <h4>Advantages of involving the UX team in a project</h4>
-            <ul>
-              <li><b>Improved User Experience:</b> The primary advantage of involving the UX team in a project is that it results in an improved user experience. The UX team brings a user-centred approach to the design process, ensuring that the product meets user needs, behaviours, and preferences.</li>
-              <li><b>Increased Efficiency:</b> Involving the UX team early in the project can save time and resources. By identifying user needs and pain points early in the design process, the UX team can help prevent costly redesigns and rework later in the project.</li>
-              <li><b>Competitive Advantage:</b> A well-designed product that meets user needs can provide a significant competitive advantage. By involving the UX team in the project, the product team can create a product that differentiates itself from competitors and meets user expectations.</li>
-            </ul>
-          </div>
-      </div>
-
-      
-      <hr class="dividerline" />
       
       <div className='journal-content'>
-          <div className='reference'>
-            <h5>References</h5>
-            <p>
-              Norman, D. A. (2013). The design of everyday things: Revised and expanded edition. Basic books. <br/>
-              Brown, T. (2008). Design thinking. Harvard business review, 86(6), 84-92.<br/>
-              Lupton, E., & Phillips, J. (2014). Graphic design: The new basics. Chronicle Books.
-            </p>             
+          <div className='headplus-content'>
+            <h4>Usability Testing</h4>
+            <p>Usability testing plays a vital role in validating design decisions and uncovering usability issues. By observing real users as they interact with a product or prototype, designers can identify pain points, gather feedback, and make iterative improvements. Usability testing ensures that the final product aligns with user expectations and provides a seamless experience.</p>
+          </div>
+          <div className='headplus-content'>
+            <h4>Accessibility</h4>
+            <p>Inclusive design and accessibility are integral components of UX design. Designers must consider diverse user needs, such as visual impairments, motor disabilities, or cognitive limitations. By adhering to accessibility standards and incorporating inclusive design principles, designers can ensure that their products are usable and accessible to all users.</p>
+          </div>
+          <div className='headplus-content'>
+            <h4>Emotional Design</h4>
+            <p>Emotional design focuses on creating experiences that evoke positive emotions and forge meaningful connections with users. By considering aesthetics, storytelling, and the overall brand experience, designers can elicit emotional responses that enhance user engagement and loyalty.</p>
           </div>
       </div>
+      
+     
 
     </div>
   )

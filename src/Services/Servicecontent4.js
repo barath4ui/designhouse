@@ -18,7 +18,7 @@ const Servicecontent4 = () => {
             </ul>
         </div>
 
-        <p>At Design House, we believe that user research is an essential part of the UX design process. By understanding the needs, preferences, and behaviours of your target audience, we can create designs that are intuitive, easy to use, and enjoyable.</p>
+        <p>Our UX researchers use a variety of research methods and techniques to gather and analyse data. We work closely with our clients to ensure that our research findings are actionable and aligned with their business goals. By partnering with our UX research service, businesses can gain a better understanding of their users’ needs and preferences and create products and services that meet those needs.</p>
         </div>
       )
 }

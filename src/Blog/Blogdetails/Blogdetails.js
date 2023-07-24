@@ -58,12 +58,12 @@ const Blogdetails = () => {
                           <div className="header-content pt-5 pb-5">
                               <div className="inner-header inner-about">
                                   <div className="back mt-3">
-                                      <span className="back-icon"></span>
+                                      <Link to="/designhouse/blog"><span className="back-icon"></span></Link>
                                       <Link className="left-arrow-txt links" to="/designhouse/blog">Back to blog </Link>
                                   </div>
       
                                   <h2   className="mb-5 mt-3">{Blist.blog[i].title}</h2>
-                                  <span className="lg-gray">Author :</span> <b>{Blist.blog[i].author}</b> <br/>
+                                  <span className="lg-gray" style={{display: "none"}}>Author :</span> <b style={{display: "none"}}>{Blist.blog[i].author}</b> <br style={{display: "none"}} />
                                   <span className="lg-gray"><i className="small-icon icon-calendar "></i> <small>{Blist.blog[i].date}</small></span>
                               </div>
                           </div>

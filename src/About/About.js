@@ -153,34 +153,36 @@ const About = () => {
             <div className="content-banner bg-light bgimg2 mb-5">
                 <div className="contentbanner-wrap">
                     <div className="container">
-                        <div className="content-details text-center pt-5 pb-5">
-                            <div className="w-header">
+                        <div className="content-detailspt-5 pb-5">
+                            <div className="w-header  text-center ">
                                 <h2 className='mt-5 mb-4'>How we work?</h2>
                             </div>
-                            <div className='w-fullimg'>
+                            <div className='w-fullimg  text-center '>
                                 <img src={howworks} alt="" title="" />
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='how-contents'>
-                <div className="contentbanner-wrap pt-5">
-                    <div className="container">
-                        <div className='row'>
-                            <div className='col-lg-6'>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                            </div>
-                            <div className='col-lg-6'>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                            </div>
+                            <div className='how-contents'>
+                            <div className="contentbanner-wrap pt-5">
+                                <div className="container">
+                                    <div className='row'>
+                                        <div className='col-lg-6 text-left'>
+                                            <h4>Traditional UX practice</h4>
+                                            <p>Traditional UX practice follows a structured approach to user experience design, involving thorough research, documentation, and usability testing. It begins with user research and requirement gathering, followed by tasks such as information architecture, wireframing, and visual design. Usability testing and iterative design are crucial for refining the user experience. Comprehensive documentation and collaboration ensure effective communication. While conventional UX practice can be linear and time-consuming, it provides a solid foundation for design decisions. Newer approaches like Lean UX and Agile UX offer more flexibility, but conventional UX practice remains valuable for its structured and comprehensive approach to delivering effective user experiences.</p>
+                                        </div>
+                                        <div className='col-lg-1'></div>
+                                        <div className='col-lg-5 text-left'>
+                                            <h4>Lean UX practice</h4>
+                                            <p>Lean UX practice is an iterative and collaborative approach to user experience design. It focuses on delivering value quickly and efficiently by incorporating principles from Lean Startup and Agile methodologies. Lean UX emphasizes cross-functional collaboration, rapid prototyping, and continuous iteration based on user feedback. It promotes a shift from heavy documentation to a more streamlined and flexible process, prioritizing actionable insights and quick validation of design assumptions. The goal of Lean UX is to create user-centric designs while minimizing waste and maximizing efficiency in the design and development process.</p>
+                                        </div>
 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
 
             <Teams />
 

@@ -46,10 +46,12 @@ function App() {
             <Route path='/designhouse' element={<Home />} />
             <Route path='/designhouse/home' element={<Home />} />
             <Route path='/designhouse/about' element={<About />} />
+
             <Route path='/designhouse/services' element={< Services />} >
               <Route index element={<Serviceslist />} />
               <Route path=":slug" element={<Servicedetails />} />
             </Route>
+            
             <Route path='/designhouse/works' element={< Works />} />
             <Route path='/designhouse/workdetails' element={< Workdetails />} />
             <Route path='/designhouse/blog' element={< Blog />} />

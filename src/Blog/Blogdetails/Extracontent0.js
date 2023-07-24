@@ -1,5 +1,5 @@
 import React from 'react';
-import contentImg from '../../images/Blogs/Content/contentimg-1.png';
+import contentImg from '../../images/Blogs/Blogdetails/blog-0/contentimg-1.png';
 
 const Extracontent0 = () => {
   return (
@@ -12,7 +12,7 @@ const Extracontent0 = () => {
       </div>
       <div className='imageplus-content'>
         <img src={contentImg} title='' alt='' />
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        
       </div>
       <div className='journal-content'>
           <div className='headplus-list'>

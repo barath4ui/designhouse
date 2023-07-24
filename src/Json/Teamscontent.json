@@ -34,7 +34,7 @@
        "id": "5",
        "tmImg": "images/About/Teams/t-member-g-1.png",
        "tmName": "Gopi",
-       "tmRole": "Senior Creative designer"
+       "tmRole": "Senior Creative Lead"
     },
     {
        "id": "6",
@@ -71,7 +71,7 @@
        "id": "11",
        "tmImg": "images/About/Teams/t-member-s-1.png",
        "tmName": "Sathish",
-       "tmRole": "Creative Designer"
+       "tmRole": "Creative Lead"
     },
     {
       "id": "12",
@@ -83,13 +83,13 @@
        "id": "13",
        "tmImg": "images/About/Teams/t-member-s-3.png",
        "tmName": "Sidhardhan",
-      "tmRole": "Creative Lead"
+      "tmRole": "Senior Creative Lead"
     },
     {
        "id": "14",
        "tmImg": "images/About/Teams/t-member-s-4.png",
        "tmName": "Sumesh",
-       "tmRole": "Creative Lead"
+       "tmRole": "Associate Creative Manager"
     },
     {
        "id": "15",
