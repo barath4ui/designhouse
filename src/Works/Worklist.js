@@ -1,10 +1,28 @@
 import React from 'react';
-import WorkImages from './WorkImages';
 import { Link } from 'react-router-dom';
+import Innerbanner from '../Common/Banners/Innerbanner';
+import { useEffect } from 'react';
+import Allworks from '../Json/Workscontent.json';
 
 
 const Worklist = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
+
+
+      const  data ={
+        pageTitle: "Work",
+        pageHeading: "Success stories of people-centred design",
+        pageContent: "Case studies of some of the solutions we designed.",
+      };
+      
+
   return (
+    <div className='container'>
+     <Innerbanner data={data} />
+    
     <div className="work-wrapper">
             <div className="stories section-wrap">
                 
@@ -12,67 +30,27 @@ const Worklist = () => {
                         <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                             <div className="row">
                             <div class="section-head pb-5 mb-3 text-center" >
-                                <h2>All Case Studies</h2>
+                                <h2>Case Studies</h2>
                             </div>
 
                             <div className="stories-content works-pro text-left">
                                 <div className="row">
-                                    <div className="col-lg-6 col-md-6 col-sm-12 s-wrap" >
-                                        <Link to="/designhouse/workdetails" className="w-links">
+                                {Object.entries(Allworks).map(([slug, { title, description, extra , imgs }]) => (
+                                    <div className="col-lg-6 col-md-6 col-sm-12 s-wrap" key={slug} >
+                                        <Link  to={slug} className="w-links">
                                         <div className="s-header">
                                             <div className="s-image ">
-                                                <img src={WorkImages.workImg1} alt="" title="" className="img-sm-100" />
+                                                <img src={imgs} alt="" title="" className="img-sm-100" />
                                             </div>
-                                            <h6 className="mt-4 work-proname">HSBC</h6>
-                                            <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
+                                            <h6 className="mt-4 work-proname">{extra}</h6>
+                                            <h4 className="mt-1">{title}</h4>
                                         </div>
                                         <div className="s-content pt-1 mb-3">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                            <p>{description}</p>
                                         </div>
                                         </Link>
                                     </div>
-                                    <div className="col-lg-6 col-md-6 col-sm-12 s-wrap" >
-                                        <Link to="/designhouse/workdetails" className="w-links">
-                                        <div className="s-header">
-                                            <div className="s-image ">
-                                                <img src={WorkImages.workImg2} alt="" title="" className="img-sm-100" />
-                                            </div>
-                                            <h6 className="mt-4 work-proname">HSBC</h6>
-                                            <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
-                                        </div>
-                                        <div className="s-content pt-1 mb-3">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                        </div>
-                                        </Link>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-sm-12 s-wrap" >
-                                        <Link to="/designhouse/workdetails" className="w-links">
-                                        <div className="s-header">
-                                            <div className="s-image ">
-                                                <img src={WorkImages.workImg3} alt="" title="" className="img-sm-100" />
-                                            </div>
-                                            <h6 className="mt-4 work-proname">HSBC</h6>
-                                            <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
-                                        </div>
-                                        <div className="s-content pt-1 mb-3">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                        </div>
-                                        </Link>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-sm-12 s-wrap" >
-                                        <Link to="/designhouse/workdetails" className="w-links">
-                                        <div className="s-header">
-                                            <div className="s-image ">
-                                                <img src={WorkImages.workImg4} alt="" title="" className="img-sm-100" />
-                                            </div>
-                                            <h6 className="mt-4 work-proname">HSBC</h6>
-                                            <h4 className="mt-1">Lorem Ipsum is simply dummy text</h4>
-                                        </div>
-                                        <div className="s-content pt-1 mb-3">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                        </div>
-                                        </Link>
-                                    </div>            
+                                ))}        
                                 </div>
                             </div>
                             </div>
@@ -83,6 +61,7 @@ const Worklist = () => {
                 
             </div>
         </div>
+    </div>
   )
 }
 

@@ -339,9 +339,7 @@ transition: transform 250ms;
 transform: translateX(-18px);
 }
 
-.w-banner-img{
-background-image: url(./images/Works/Workdetails/Wd-banner-0.png);
-}
+
 .pr-5{
 padding-right: 5rem;
 }

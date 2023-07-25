@@ -118,6 +118,13 @@
 
 }
 
+@media (min-width: 1600px) {
+    .journal-banner-wrapper {
+        padding-top: 450px !important;
+        padding-bottom: 250px !important;
+    }
+}
+
 @media (min-width: 1200px) { 
     .container, .container-lg, .container-md, .container-sm, .container-xl{
         max-width: 1140px !important;

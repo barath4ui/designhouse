@@ -25,6 +25,7 @@ import Serviceslist from './Services/Serviceslist';
 import Servicedetails from './Services/Servicedetails';
 import Scrolltop from './Scrolltop/Scrolltop';
 import Workdetails from './Works/Workdetails';
+import Worklist from './Works/Worklist';
 
 
 function App() {
@@ -51,9 +52,13 @@ function App() {
               <Route index element={<Serviceslist />} />
               <Route path=":slug" element={<Servicedetails />} />
             </Route>
+
+            <Route path='/designhouse/works' element={< Works />} >
+              <Route index element={<Worklist />} />
+              <Route path=":slug" element={<Workdetails />} />
+            </Route>
             
-            <Route path='/designhouse/works' element={< Works />} />
-            <Route path='/designhouse/workdetails' element={< Workdetails />} />
+          
             <Route path='/designhouse/blog' element={< Blog />} />
             <Route path='/designhouse/blog/:id' element={< Blogdetails />} />
             <Route path='/designhouse/contact' element={<Contact />} />
