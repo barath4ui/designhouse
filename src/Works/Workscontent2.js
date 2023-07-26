@@ -33,10 +33,17 @@ const Workscontent2 = () => {
                     </div>
                     
                     <div className="carousel-inner">
-                      <div className="carousel-item active" data-bs-interval="10000">
-                        <img src={WorkdetailsImages.wdImg1} className="d-block w-100" alt="..."  title='' />
-                      </div>
+                          <div className="carousel-item active" data-bs-interval="10000">
+                            <img src={WorkdetailsImages.w2.wcImg1} className="d-block w-100" alt="..."  title='' />
+                          </div>
+                          <div className="carousel-item " data-bs-interval="10000">
+                            <img src={WorkdetailsImages.w2.wcImg2} className="d-block w-100" alt="..."  title='' />
+                          </div>
+                          <div className="carousel-item " data-bs-interval="10000">
+                            <img src={WorkdetailsImages.w2.wcImg3} className="d-block w-100" alt="..."  title='' />
+                          </div>
                     </div>
+
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span className="visually-hidden">Previous</span>
@@ -57,7 +64,7 @@ const Workscontent2 = () => {
             </ul>
             </div>
 
-            <img src={WorkdetailsImages.wdImg2} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w2.wjImg1} className="journal-img mt-5" alt='' title='' ></img>
             
 
             <div className="journal-content mt-5">
@@ -69,7 +76,7 @@ const Workscontent2 = () => {
                 
                 
             </div>
-            <img src={WorkdetailsImages.wdImg3} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w2.wjImg2} className="journal-img mt-5" alt='' title='' ></img>
             <div className="journal-content mt-5">
             <h5 className="mt-5">Our approach</h5>
             <p >On taking into account all the things, we decided to devise a framework that helps stakeholders to understand how an organisation manages risks and opportunities related to environmental, social, and governance.As it is a new product, we consulted with the subject matter experts for guidance and went through the literature review to get a better clarity..We identified three user personas: Vendors,Employees and ESG team .We have taken into account many of the ESG metrics that include greenhouse gas emissions, water consumption, waste water, energy use, waste generation, employee safety record, and community impact.</p>
@@ -79,7 +86,7 @@ const Workscontent2 = () => {
            
            
             </div>
-            <img src={WorkdetailsImages.wdImg3} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w2.wjImg3} className="journal-img mt-5" alt='' title='' ></img>
             <div className="journal-content mt-5">
             
             <h5 mt-5>Concusion</h5>

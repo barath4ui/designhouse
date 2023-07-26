@@ -48,7 +48,7 @@ const Workscontent3 = () => {
             
             </div>
 
-            <img src={WorkdetailsImages.wdImg2} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w3.wjImg1} className="journal-img mt-5" alt='' title='' ></img>
             
 
             <div className="journal-content mt-5">
@@ -57,17 +57,17 @@ const Workscontent3 = () => {
                 <p>Potential employee hears about organisation through different channels. As the focus is on employee journey, here the flow is started from the point of seeing the job description. It is important to analyse each step to improve the experience.</p>
                 </div>
 
-                <img src={WorkdetailsImages.wdImg2} className="journal-img mt-5" alt='' title='' ></img>
+                <img src={WorkdetailsImages.w3.wjImg2} className="journal-img mt-5" alt='' title='' ></img>
                 <div className="journal-content mt-5">
                 <h5 className="mt-5">2: Calls, Interviews</h5>
                 <p>Various biases interfere with the selection process. So the recruitment team should be aware of these biases(linguistic, racial, regional etc. The primary goal is quality and efficiency of the work. So it’s recommended to focus on experience and work quality more.)</p>
                 </div>
-                <img src={WorkdetailsImages.wdImg2} className="journal-img mt-5" alt='' title='' ></img>
+                <img src={WorkdetailsImages.w3.wjImg3} className="journal-img mt-5" alt='' title='' ></img>
                 <div className="journal-content mt-5">
                 <h5 className="mt-5">3: After joining the company</h5>
                 <p>The selected person is coming with perceptions formed outside. If the perceptions matches the experience (mental model matches with the reality) the satisfaction level will be high. To ensure this need analysis of existing situation and improvement if required.</p>
                 </div>
-                <img src={WorkdetailsImages.wdImg2} className="journal-img mt-3" alt='' title='' ></img>
+                <img src={WorkdetailsImages.w3.wjImg4} className="journal-img mt-3" alt='' title='' ></img>
                 <div className="journal-content mt-5">
                 <h5 className="mt-5">Desk research</h5>
                 <p className="mb-5">Satisfaction is a Psychological factor, there are several factors that influence the satisfaction of employees. They are professional, personal and cultural aspects. Understanding behavioural aspects from existing literature can give theoretical support to our findings. So we examined several such studies and articles and could find widely reported challenges and possible solutions. However it was important for us to understand specific problems in our context. So started with surveys, interviews were conducted with people from all the relevant groups.</p>
@@ -92,7 +92,7 @@ const Workscontent3 = () => {
             <p>A service blueprint was created, which gave a big picture of the whole journey from a new joiner’s view, timeline, important touch points, who all are involved, technologies, front and back stage interactions were captured,this gave insight to the challenges and possible solutions.</p>
             </div>
             
-            <img src={WorkdetailsImages.wdImg3} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w3.wjImg5} className="journal-img mt-5" alt='' title='' ></img>
             <div className="journal-content mt-5">
             
             
@@ -100,7 +100,7 @@ const Workscontent3 = () => {
             <p>Capturing the groups directly or indirectly becomes part of the activities, the map illustrates the proximity, and frequency of communication.</p>
            
             </div>
-            <img src={WorkdetailsImages.wdImg3} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w3.wjImg6} className="journal-img mt-5" alt='' title='' ></img>
             <div className="journal-content mt-5">
             
             
@@ -108,7 +108,7 @@ const Workscontent3 = () => {
             <p>Used to capture what the target audience thinks, feels, does and says about their experience when they go through the process. This was applied to both new joiners and people teams.</p>
            
             </div>
-            <img src={WorkdetailsImages.wdImg3} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w3.wjImg7} className="journal-img mt-5" alt='' title='' ></img>
 
             <div className="journal-content mt-5">
             
@@ -129,7 +129,7 @@ const Workscontent3 = () => {
             </div>
 
             </div>
-            <img src={WorkdetailsImages.wdImg3} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w3.wjImg8} className="journal-img mt-5" alt='' title='' ></img>
 </div>
   )
 }

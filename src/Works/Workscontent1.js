@@ -34,7 +34,13 @@ const Workscontent1 = () => {
                     
                     <div className="carousel-inner">
                       <div className="carousel-item active" data-bs-interval="10000">
-                        <img src={WorkdetailsImages.wdImg1} className="d-block w-100" alt="..."  title='' />
+                        <img src={WorkdetailsImages.w1.wcImg1} className="d-block w-100" alt="..."  title='' />
+                      </div>
+                      <div className="carousel-item" data-bs-interval="10000">
+                        <img src={WorkdetailsImages.w1.wcImg2} className="d-block w-100" alt="..."  title='' />
+                      </div>
+                      <div className="carousel-item" data-bs-interval="10000">
+                        <img src={WorkdetailsImages.w1.wcImg3} className="d-block w-100" alt="..."  title='' />
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -57,7 +63,7 @@ const Workscontent1 = () => {
                 </p>
             </div>
 
-            <img src={WorkdetailsImages.wdImg2} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w1.wjImg1} className="journal-img mt-5" alt='' title='' ></img>
             
 
             <div className="journal-content mt-5">
@@ -67,7 +73,7 @@ const Workscontent1 = () => {
                 <h5 className="mt-5">Conclusion</h5>
                 <p className="mt-3">Our involvement as the UX team in the research, design, and development of The Humane Life and The Humane Shop platforms was immensely fulfilling. By addressing the need for a platform that went beyond collecting money and introducing a need-based donation system, we provided a unique and impactful solution. These platforms effectively facilitated social welfare, empowered communities, and facilitated meaningful contributions. Moving forward, we remained committed to continuous improvement, ensuring that our designs evolved and adapted to maximize their positive social impact.</p>
             </div>
-            <img src={WorkdetailsImages.wdImg3} className="journal-img mt-5" alt='' title='' ></img>
+            <img src={WorkdetailsImages.w1.wjImg2} className="journal-img mt-5" alt='' title='' ></img>
             
 </div>
   )

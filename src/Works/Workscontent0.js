@@ -41,7 +41,13 @@ const Workscontent0 = () => {
                         
                         <div className="carousel-inner">
                           <div className="carousel-item active" data-bs-interval="10000">
-                            <img src={WorkdetailsImages.wdImg1} className="d-block w-100" alt="..."  title='' />
+                            <img src={WorkdetailsImages.w0.wcImg1} className="d-block w-100" alt="..."  title='' />
+                          </div>
+                          <div className="carousel-item " data-bs-interval="10000">
+                            <img src={WorkdetailsImages.w0.wcImg2} className="d-block w-100" alt="..."  title='' />
+                          </div>
+                          <div className="carousel-item " data-bs-interval="10000">
+                            <img src={WorkdetailsImages.w0.wcImg3} className="d-block w-100" alt="..."  title='' />
                           </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -73,7 +79,7 @@ const Workscontent0 = () => {
                     </p>
                 </div>
 
-                <img src={WorkdetailsImages.wdImg2} className="journal-img mt-5" alt='' title='' ></img>
+                <img src={WorkdetailsImages.w0.wjImg1} className="journal-img mt-5" alt='' title='' ></img>
                 
 
                 <div className="journal-content mt-5">
@@ -99,7 +105,7 @@ const Workscontent0 = () => {
                         requirements might be new. In both phases, the approximate time required for the communication
                         designers to design the creative will be displayed, while raising the request.</p>
                 </div>
-                <img src={WorkdetailsImages.wdImg3} className="journal-img mt-5" alt='' title='' ></img>
+                <img src={WorkdetailsImages.w0.wjImg2} className="journal-img mt-5" alt='' title='' ></img>
                 <div className="journal-content mt-5">
                     <h5>Based on the solution that arrived at the design phases, we created a wireframe using with UX
                         Tools. We named the application the “Creative Library” and started working on the functional
@@ -120,7 +126,7 @@ const Workscontent0 = () => {
                         communication designers.
                     </p>
                 </div>
-                <img src={WorkdetailsImages.wdImg4} className="journal-img mt-5"></img>
+                <img src={WorkdetailsImages.w0.wjImg3} className="journal-img mt-5"></img>
                 <div className="journal-content mt-5">
 
                     <p className="mt-5">By implementing an application (Creative Library) with Improved User Experience and
