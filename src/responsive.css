@@ -114,7 +114,12 @@
     .banner-innerpage{
         background-position-x: 0px;
     }
-    
+    .j-wrapper{
+        top:-50px !important
+    }
+    .dynamic-blogcontent{
+        margin-top: 50px !important;
+    }
 
 }
 
@@ -216,8 +221,26 @@
 
 @media (max-width: 570px) { 
     .people{
-        width: 200px;
+        width: 340px;
         margin: 0 auto;
+    }
+    .people .col-sm-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .people .people-name{
+        font-size: 16px;
+    }
+    .people .role-txt{
+        font-size: 10px;
+    }
+    .newbadge{
+        display: inline-block;
+    }
+
+    .journal-banner-wrapper{
+        padding-top: 160px;
+    padding-bottom: 60px;
     }
 }
 
