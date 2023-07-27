@@ -1,6 +1,6 @@
 import React from 'react';
-import contentImg1 from '../../images/Blogs/Blogdetails/blog-3/contentimg-1.png';
-import contentImg2 from '../../images/Blogs/Blogdetails/blog-3/contentimg-2.png';
+import contentImg1 from '../images/Blogs/Blogdetails/blog-3/contentimg-1.png';
+import contentImg2 from '../images/Blogs/Blogdetails/blog-3/contentimg-2.png';
 
 const Extracontent3 = () => {
   return (

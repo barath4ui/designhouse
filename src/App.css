@@ -411,3 +411,7 @@ padding-left: 5rem;
 .works-content > .btspace:last-child{
   margin-bottom: 0;
 }
+
+.dhlogo{
+  height: 45px !important;
+}

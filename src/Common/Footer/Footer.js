@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import wns from '../../images/Footer/wns.png';
+import wns from '../../images/Footer/logowhite.svg';
 import { Link} from 'react-router-dom';
 
 
@@ -19,7 +19,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div className="footer-logo text-md-end"  >
-                            <a href="/designhouse"> <img src={wns} alt="" title="" /> </a>
+                            <a href="/designhouse"> <img src={wns} alt="" title="" className='dhlogo' /> </a>
                             </div>
                         </div>
                     </div>

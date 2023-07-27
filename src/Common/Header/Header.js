@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
-import logo from '../../images/Header/logo.png';
+import logo from '../../images/Header/DHLOGO.svg';
 import './Header.css';
 
 
@@ -14,7 +14,7 @@ const header = () => {
     <div className="container">
         <div className="header-top pt-4 position-relative">
             <div className="header-logo">
-            <Link to="/designhouse"><img src={logo} alt="" title="" /></Link>
+            <Link to="/designhouse"><img src={logo} alt="" title="" className='dhlogo' /></Link>
             </div>
             <div className="header-menu">
                 <input type="checkbox" id="active" />

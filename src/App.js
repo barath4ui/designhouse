@@ -15,17 +15,15 @@ import Works from './Works/Works';
 import Services from './Services/Services';
 import Blog from './Blog/Blog';
 import Apihome from './Home/Apihome';
-import Blogdetails from './Blog/Blogdetails/Blogdetails';
+import Blogdetails from './Blog/Blogdetails';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Posts from './Posts/Posts';
-import Postlists from './Posts/Postlists';
-import Post from './Posts/Post';
 import Serviceslist from './Services/Serviceslist';
 import Servicedetails from './Services/Servicedetails';
 import Scrolltop from './Scrolltop/Scrolltop';
 import Workdetails from './Works/Workdetails';
 import Worklist from './Works/Worklist';
+import Bloglist from './Blog/Bloglist';
 
 
 function App() {
@@ -58,17 +56,15 @@ function App() {
               <Route path=":slug" element={<Workdetails />} />
             </Route>
             
-          
-            <Route path='/designhouse/blog' element={< Blog />} />
-            <Route path='/designhouse/blog/:id' element={< Blogdetails />} />
+
+            <Route path='/designhouse/blog' element={< Blog />} >
+              <Route index element={<Bloglist />} />
+              <Route path=":slug" element={<Blogdetails/>} />
+            </Route>
+
             <Route path='/designhouse/contact' element={<Contact />} />
 
             <Route path='*' element={<Apihome />} />
-
-            <Route path="/posts" element={<Posts />}>
-              <Route index element={<Postlists />} />
-              <Route path=":slug" element={<Post />} />
-            </Route>
 
         </Routes>
       

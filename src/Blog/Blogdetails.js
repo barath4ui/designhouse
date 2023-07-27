@@ -2,8 +2,8 @@ import React from 'react';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
-import Blogcontent from '../../Json/Blogcontent.json';
-import '../Blog.css';
+import Blogcontent from '../Json/Blogcontent.json';
+import './Blog.css';
 import { useParams } from 'react-router-dom';
 import Extracontent0 from './Extracontent0';
 import Extracontent1 from './Extracontent1';
@@ -28,14 +28,17 @@ const Blogdetails = () => {
         window.scrollTo(0, 0)
       }, [])
   
+  const serv = Blogcontent;
 
-  const {id} = useParams();
+  const { slug } = useParams();
+  const post = serv[slug];
+  const i = post.id;
 
-  document.title = "Blog Details";
- 
-  const j = {id};
-  const i = j.id ;
+  console.log(i);
 
+  if(!post) {
+    return <span>The blog post you've requested doesn't exist.</span>;
+  }
   
 
   return (
@@ -43,15 +46,8 @@ const Blogdetails = () => {
     
    
     <div className='blogdetails'>
-    
-   
-       
-    {Blogcontent && Blogcontent.map(Blist =>{
 
-        return(
-
-            <>
-            <div className='dynamic-bloghead' key={Blist.blog[i].id}>
+            <div className='dynamic-bloghead' key={post.id}>
                 
                 <header>
                       <div className="container">
@@ -62,9 +58,9 @@ const Blogdetails = () => {
                                       <Link className="left-arrow-txt links" to="/designhouse/blog">Back to blog </Link>
                                   </div>
       
-                                  <h2   className="mb-5 mt-3">{Blist.blog[i].title}</h2>
-                                  <span className="lg-gray" style={{display: "none"}}>Author :</span> <b style={{display: "none"}}>{Blist.blog[i].author}</b> <br style={{display: "none"}} />
-                                  <span className="lg-gray"><i className="small-icon icon-calendar "></i> <small>{Blist.blog[i].date}</small></span>
+                                  <h2   className="mb-5 mt-3">{post.title}</h2>
+                                  <span className="lg-gray" style={{display: "none"}}>Author :</span> <b style={{display: "none"}}>{post.author}</b> <br style={{display: "none"}} />
+                                  <span className="lg-gray"><i className="small-icon icon-calendar "></i> <small>{post.date}</small></span>
                               </div>
                           </div>
                       </div>
@@ -75,7 +71,7 @@ const Blogdetails = () => {
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="j-wrapper bg-yellow position-relative p-3">
                                 <h4 className="lg-txt lh-40">
-                                    {Blist.blog[i].bannertxt}
+                                    {post.bannertxt}
                                 </h4>
                             </div>
                         </div>
@@ -89,7 +85,7 @@ const Blogdetails = () => {
                 <div className='container'>
                     <div class="journal-content">
                             <h5 class="lg-txt lh-40">
-                                {Blist.blog[i].content}
+                                {post.content}
                             </h5>
                             <br/>
                     </div>
@@ -105,17 +101,6 @@ const Blogdetails = () => {
                     
                 </div>
             </div>
-            
-            </>
-
-            )} 
-
-            
-    
-    )}
-
-    
-    
 
     </div>
   )

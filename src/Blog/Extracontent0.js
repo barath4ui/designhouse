@@ -1,5 +1,6 @@
 import React from 'react';
-import contentImg from '../../images/Blogs/Blogdetails/blog-0/contentimg-1.png';
+import contentImg from '../images/Blogs/Blogdetails/blog-0/contentimg-1.png';
+
 
 const Extracontent0 = () => {
   return (
