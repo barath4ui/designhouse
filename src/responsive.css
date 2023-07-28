@@ -152,6 +152,10 @@
         left: 5rem;
         transition: 1.5s;
     }
+    .w-header, .w-content
+    {
+        width: 504px;
+    }
     .box-right{
         left: -5rem;
     }

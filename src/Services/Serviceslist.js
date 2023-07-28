@@ -5,6 +5,7 @@ import Innerbanner from '../Common/Banners/Innerbanner';
 import InnerImageBanner from '../Common/Banners/InnerImageBanner';
 import Capabilities from './Capabilities';
 import Allservices from '../Json/Servicecontent.json';
+import Faq from './Faq';
 
 const Serviceslist = () => {
     const  data ={
@@ -66,6 +67,8 @@ const Serviceslist = () => {
     </div>
 
     <Capabilities />
+
+    <Faq />
     </>
   )
 }
