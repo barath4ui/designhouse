@@ -19,7 +19,7 @@ const Faq = () => {
     <div className='section-wrap faq-wrap'>
       <div className="container">
         
-        <h2 className="text-center text-dark fw-bold mb-md-4 mb-lg-5">Frequently Asked Questions</h2>
+        <h2 className="text-center text-dark fw-bold mb-5">Frequently Asked Questions</h2>
         <div className="row justify-content-center">
             <div className="col-12 col-lg-12">
               <div className="card">

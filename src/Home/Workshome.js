@@ -11,7 +11,7 @@ const Workshome = () => {
             <div className="container">
                 
                 <div className="works-content text-left">
-                    <div className="row animate-work" data-aos="fade-right" >
+                    <div className="row animate-work" data-aos="zoom-in" >
                         
                         <div className="col-lg-6 col-sm-12 position-relative">
                             <div className="w-wrap p-5">
@@ -37,7 +37,7 @@ A smart application to manage the design deliverables to enhance Productivity an
                        
                     </div>
                     <div className="clr clr-100"></div>
-                    <div className="row  animate-work" data-aos="fade-left" >
+                    <div className="row  animate-work" data-aos="zoom-in" >
                         <div className="col-lg-6 col-sm-12">
                             <div className="w-images">
                                 <img src={work2} alt="" title="" className="img-md-100" />
@@ -61,7 +61,7 @@ A smart application to manage the design deliverables to enhance Productivity an
                         
                     </div>
                     <div className="clr clr-100"></div>
-                    <div className="row animate-work" data-aos="fade-right" >
+                    <div className="row animate-work" data-aos="zoom-in" >
                        
                         <div className="col-lg-6 col-sm-12 position-relative">
                             <div className="w-wrap p-5">

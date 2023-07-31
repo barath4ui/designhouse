@@ -28,7 +28,14 @@ const Bloglist = () => {
 
         {Object.entries(blogData).map(([slug, {id,  title, content, icon }]) => ( 
         <div className={'row test'+ ((id)%2 ? 'right':'left')} key={id} >
-
+            <div className="col-lg-6 col-sm-12 img-right">
+                <div className="w-images">
+                    <a href="blog-detail-01.html">
+                        <img src={icon} alt="" title="" className="img-md-100" />
+                    </a>
+                </div>
+                
+            </div>
             <div className="col-lg-6 col-sm-12 position-relative">
                 <div className="bl-wrap pr-lg-5">
                     <div className="b-header">
@@ -43,14 +50,7 @@ const Bloglist = () => {
                 </div>
             </div>
 
-            <div className="col-lg-6 col-sm-12">
-                <div className="w-images">
-                    <a href="blog-detail-01.html">
-                        <img src={icon} alt="" title="" className="img-md-100" />
-                    </a>
-                </div>
-                
-            </div>
+            
             
         </div>
         ))}   

@@ -243,8 +243,8 @@
     }
 
     .journal-banner-wrapper{
-        padding-top: 160px;
-    padding-bottom: 60px;
+        padding-top: 160px !important;
+    padding-bottom: 60px !important;
     }
 }
 

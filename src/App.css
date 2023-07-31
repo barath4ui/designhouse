@@ -432,6 +432,10 @@ padding-left: 5rem;
   transition: 0.5s;
 }
 
+.banner-wrapper, .journal-banner-wrapper, .w-images{
+  background-color: #212529;
+}
+
 /*
 .animate-work:hover .w-wrap {
   bottom: 0rem;
