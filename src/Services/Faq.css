@@ -50,3 +50,8 @@
 .accordion__button[aria-expanded='true']::before, .accordion__button[aria-selected='true']::before {
     transform: rotate(225deg) !important;
 }
+
+.accordion__button[aria-expanded=true]:hover, .accordion__button[aria-selected=true]:hover{
+  background-color: #fff !important;
+  cursor: auto;
+}
