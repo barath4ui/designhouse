@@ -30,9 +30,9 @@ const Bloglist = () => {
         <div className={'row test'+ ((id)%2 ? 'right':'left')} key={id} >
             <div className="col-lg-6 col-sm-12 img-right">
                 <div className="w-images">
-                    <a href="blog-detail-01.html">
+                    <Link to={slug} >
                         <img src={icon} alt="" title="" className="img-md-100" />
-                    </a>
+                    </Link>
                 </div>
                 
             </div>
