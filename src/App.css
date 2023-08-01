@@ -435,6 +435,18 @@ padding-left: 5rem;
 .banner-wrapper, .journal-banner-wrapper, .w-images{
   background-color: #212529;
 }
+.pagenot{
+  text-align: center;
+  margin: 70px auto;
+  max-width: 600px;
+}
+.pagenot img{
+  max-width: 100%  !important;
+  margin: 30px 0;
+}
+.pagenot a{
+  margin-bottom: 30px;
+}
 
 /*
 .animate-work:hover .w-wrap {

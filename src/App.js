@@ -14,7 +14,6 @@ import Contact from './Contact/Contact';
 import Works from './Works/Works';
 import Services from './Services/Services';
 import Blog from './Blog/Blog';
-import Apihome from './Home/Apihome';
 import Blogdetails from './Blog/Blogdetails';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,6 +23,8 @@ import Scrolltop from './Scrolltop/Scrolltop';
 import Workdetails from './Works/Workdetails';
 import Worklist from './Works/Worklist';
 import Bloglist from './Blog/Bloglist';
+import PageNotFound from './PageNotFound';
+
 
 
 function App() {
@@ -64,7 +65,7 @@ function App() {
 
             <Route path='/designhouse/contact' element={<Contact />} />
 
-            <Route path='*' element={<Apihome />} />
+            <Route path='*' element={ <PageNotFound /> } />
 
         </Routes>
       
